@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "model": "llama-3.3-70b-versatile",
+    "dataset_size": 5,
+    "timestamp": "2026-07-07T02:04:53.554301",
+    "elapsed_seconds": 17.62,
+    "approach": "RAG (Retrieval-Augmented Generation with few-shot prompting + style matching)"
+  },
+  "aggregate": {
+    "count": 5,
+    "semantic_similarity": {
+      "mean": 96.99,
+      "std": 3.51,
+      "min": 92.65,
+      "max": 99.93
+    },
+    "style_match": {
+      "mean": 87.52,
+      "std": 15.63
+    },
+    "combined_semantic": {
+      "mean": 94.15,
+      "std": 4.08
+    },
+    "llm_judge": {
+      "tone": {
+        "mean": 82.0,
+        "std": 4.0
+      },
+      "actionability": {
+        "mean": 92.0,
+        "std": 7.48
+      },
+      "completeness": {
+        "mean": 82.0,
+        "std": 11.66
+      },
+      "empathy": {
+        "mean": 32.0,
+        "std": 27.13
+      },
+      "overall": {
+        "mean": 73.0,
+        "std": 6.13
+      }
+    },
+    "final_score": {
+      "mean": 78.29,
+      "std": 4.7,
+      "min": 74.28,
+      "max": 87.48
+    }
+  },
+  "per_example": [
+    {
+      "email": "I was promised a refund of $599 but only received $298.58. Where is the rest?",
+      "expected_reply": "Hi Michael, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $302.08 to your account. The full refund is now complete.",
+      "generated_reply": "Hi Michael, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $300.42 to your account. The full refund is now complete.",
+      "evaluation": {
+        "semantic_similarity": 92.74,
+        "style_match": 100.0,
+        "combined_semantic": 94.92,
+        "llm_judge": {
+          "tone": 90,
+          "actionability": 80,
+          "completeness": 90,
+          "empathy": 80,
+          "overall": 85,
+          "reasoning": "The AI-generated reply is mostly accurate and professional, but it contains a minor error in the refund amount ($300.42 instead of $300.42 + $1.66 = $302.08), which affects its actionability and completeness. The tone and empathy are appropriate, but could be improved with more personalized language."
+        },
+        "final_score": 87.48
+      }
+    },
+    {
+      "email": "Email signatures aren't applying to replies sent through Hiver.",
+      "expected_reply": "Hi Sofia, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies.",
+      "generated_reply": "Hi Emily, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies.",
+      "evaluation": {
+        "semantic_similarity": 99.93,
+        "style_match": 93.33,
+        "combined_semantic": 97.95,
+        "llm_judge": {
+          "tone": 80,
+          "actionability": 90,
+          "completeness": 80,
+          "empathy": 20,
+          "overall": 70,
+          "reasoning": "The AI-generated reply is professional and provides clear actionability, but it lacks empathy and incorrectly addresses the customer by a different name, indicating a lack of personalization and attention to detail."
+        },
+        "final_score": 76.99
+      }
+    },
+    {
+      "email": "We're reorganizing and want to pause our account for 21 days without losing data.",
+      "expected_reply": "Hi Dakota, I've paused your billing for 21 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel.",
+      "generated_reply": "Hi Avery, I've paused your billing for 21 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel.",
+      "evaluation": {
+        "semantic_similarity": 99.79,
+        "style_match": 56.67,
+        "combined_semantic": 86.85,
+        "llm_judge": {
+          "tone": 80,
+          "actionability": 100,
+          "completeness": 90,
+          "empathy": 20,
+          "overall": 72,
+          "reasoning": "The AI reply is professional and provides clear next steps, but it addresses the wrong customer name and lacks empathy towards the customer's situation, resulting in a lower overall score."
+        },
+        "final_score": 75.71
+      }
+    },
+    {
+      "email": "Can we create a feedback survey that's sent after a conversation is resolved?",
+      "expected_reply": "Hi Sarah, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved.",
+      "generated_reply": "Hi Emily, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved.",
+      "evaluation": {
+        "semantic_similarity": 99.85,
+        "style_match": 93.33,
+        "combined_semantic": 97.9,
+        "llm_judge": {
+          "tone": 80,
+          "actionability": 100,
+          "completeness": 90,
+          "empathy": 0,
+          "overall": 70,
+          "reasoning": "The AI reply is professional and provides clear next steps, but it fails to address the customer's name correctly (Sarah vs. Emily) and lacks empathy. The tone is mostly appropriate but could be warmer."
+        },
+        "final_score": 76.97
+      }
+    },
+    {
+      "email": "Love the product but wanted to share feedback: the mobile app needs offline mode.",
+      "expected_reply": "Hi Lucas, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-1534) and shared it with our PM. We're actually exploring something similar in Q2.",
+      "generated_reply": "Hi Ethan, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-2198) and shared it with our PM. We're actually exploring something similar in Q3.",
+      "evaluation": {
+        "semantic_similarity": 92.65,
+        "style_match": 94.29,
+        "combined_semantic": 93.14,
+        "llm_judge": {
+          "tone": 80,
+          "actionability": 90,
+          "completeness": 60,
+          "empathy": 40,
+          "overall": 68,
+          "reasoning": "The AI-generated reply has a professional tone and provides clear next steps, but it addresses the customer by the wrong name, misses showing empathy towards the customer's situation, and doesn't perfectly match the expected reply's details such as the quarter for exploration."
+        },
+        "final_score": 74.28
+      }
+    }
+  ]
+}

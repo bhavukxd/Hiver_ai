@@ -1,0 +1,2002 @@
+[
+  {
+    "email": "I was promised a refund of $599 but only received $298.58. Where is the rest?",
+    "expected_reply": "Hi Michael, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $302.08 to your account. The full refund is now complete."
+  },
+  {
+    "email": "Email signatures aren't applying to replies sent through Hiver.",
+    "expected_reply": "Hi Sofia, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies."
+  },
+  {
+    "email": "We're reorganizing and want to pause our account for 21 days without losing data.",
+    "expected_reply": "Hi Dakota, I've paused your billing for 21 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel."
+  },
+  {
+    "email": "Can we create a feedback survey that's sent after a conversation is resolved?",
+    "expected_reply": "Hi Sarah, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved."
+  },
+  {
+    "email": "Love the product but wanted to share feedback: the mobile app needs offline mode.",
+    "expected_reply": "Hi Lucas, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-1534) and shared it with our PM. We're actually exploring something similar in Q2."
+  },
+  {
+    "email": "Our security team needs to know: Are you SOC 2 compliant? Where is data stored?",
+    "expected_reply": "Hi Avery, yes, we are SOC 2 Type II certified. Data is stored in EU-West (AWS). I've attached our security whitepaper, pen-test summary, and DPA."
+  },
+  {
+    "email": "Can we require approval before an agent can delete a conversation?",
+    "expected_reply": "Hi Thomas, I've enabled deletion approval workflows on your account. Now, any agent attempting to delete a conversation will require admin approval."
+  },
+  {
+    "email": "Can we get a detailed breakdown of what each seat costs? Our finance team needs this.",
+    "expected_reply": "Hi Elena, I've attached a detailed cost breakdown per seat for your Growth plan. Each seat costs $5.33/month."
+  },
+  {
+    "email": "We're evaluating Hiver for our Education company. Do you have case studies?",
+    "expected_reply": "Hi Nathan, I've attached case studies from CopperWire and IronClad in Education. Both had similar team sizes and use cases. I'd also love to connect you with Jordan for a reference call."
+  },
+  {
+    "email": "Why did my price increase this month? I didn't change anything.",
+    "expected_reply": "Hi Sam, the price increase is due to our annual pricing adjustment communicated on March 3. Your plan remains the same, but the base price increased by 15%."
+  },
+  {
+    "email": "What's your average uptime and do you have a status page?",
+    "expected_reply": "Hi Sofia, our average uptime is 99.99% over the past 12 months. Our status page is at status.hiverhq.com and you can subscribe to incident alerts. I've also attached our SLA guarantees."
+  },
+  {
+    "email": "Can we try Hiver with a subset of our team before rolling out company-wide?",
+    "expected_reply": "Hi Zoe, absolutely! I recommend starting with a pilot of 5-10 users. I've set up a pilot workspace for you with a dedicated onboarding specialist. We'll measure adoption and satisfaction after 2 weeks before expanding."
+  },
+  {
+    "email": "I was charged $79 but your pricing page says Starter is $299. Please explain.",
+    "expected_reply": "Hi Chloe, I apologize for the confusion. The $79 charge includes a one-time onboarding fee. I've issued a $220 credit to your account, and your next invoice will show the correct $299 amount."
+  },
+  {
+    "email": "Can we create custom fields for conversations like 'Priority' and 'Region'?",
+    "expected_reply": "Hi Chloe, yes, custom fields are available on our Pro plan. I've created 'Priority' and 'Region' fields for your account. You can add them to any conversation and use them in automation rules and reports."
+  },
+  {
+    "email": "The analytics dashboard shows 0 conversations for yesterday but we had activity.",
+    "expected_reply": "Hi Layla, there was a data pipeline delay affecting yesterday's analytics. The data is now backfilled and your dashboard should show the correct numbers."
+  },
+  {
+    "email": "Can we schedule recurring reports to be emailed to leadership weekly?",
+    "expected_reply": "Hi Morgan, I've set up a weekly recurring report that will be emailed to your leadership team every Monday. It includes response times, resolution rates, and conversation volume."
+  },
+  {
+    "email": "The Gmail integration stopped working. Emails aren't syncing to our shared inbox 'Sales'.",
+    "expected_reply": "Hi Isabella, I'm sorry for the disruption. I can see a sync error for 'Sales'. I've reset the connection and emails should start appearing within 15 minutes."
+  },
+  {
+    "email": "I see a charge from Hiver I don't recognize. Can you tell me what it's for?",
+    "expected_reply": "Hi Zara, I've looked up the charge and it corresponds to your Growth plan renewal. I've attached the invoice for your reference."
+  },
+  {
+    "email": "We stopped getting Slack notifications for new emails in #alerts since last week.",
+    "expected_reply": "Hi Isabella, I've reauthorized the Slack connection and pushed a fix for the notification pipeline. You should start seeing notifications in #alerts within 10 minutes."
+  },
+  {
+    "email": "Is there a way to suggest improvements to the product directly to your PM team?",
+    "expected_reply": "Hi Henry, yes! I've added you to our PM feedback program. You'll receive monthly surveys and early access to beta features. Your feedback goes directly to our product team."
+  },
+  {
+    "email": "Two agents replied to the same customer email. How do we prevent this?",
+    "expected_reply": "Hi Elena, this is exactly what our Collision Detection feature is for. I've enabled it on your account. Now, when one agent starts typing a reply, others will see a warning."
+  },
+  {
+    "email": "The API documentation example for creating a conversation is returning a 400 error.",
+    "expected_reply": "Hi Noah, the API documentation was updated but the example wasn't. The correct payload structure requires 'sender' instead of 'from_address'. I've sent you the corrected example."
+  },
+  {
+    "email": "The password reset link expires immediately when I click it. I've tried 3 times.",
+    "expected_reply": "Hi Thomas, I've reset your password manually and sent a temporary password to your backup email. Please log in and change it immediately."
+  },
+  {
+    "email": "Email templates aren't loading in the compose window. The dropdown is empty.",
+    "expected_reply": "Hi Casey, I've identified a caching issue affecting your templates. I've cleared the cache and refreshed your template library. Please reload Gmail and try again."
+  },
+  {
+    "email": "Can I get a pro-rated refund if I cancel my subscription mid-cycle?",
+    "expected_reply": "Hi Liam, yes, we offer pro-rated refunds. I've calculated your refund as $133.88 for the remaining days. It will be processed to your original payment method within 5-7 business days."
+  },
+  {
+    "email": "Do you have upcoming webinars on advanced features?",
+    "expected_reply": "Hi Jordan, our next 'Hiver Advanced' webinar is on July 18. I've reserved 3 seats for your team. I've also sent you recordings of past sessions on automation and analytics."
+  },
+  {
+    "email": "Conversation threads are splitting into multiple entries instead of staying grouped.",
+    "expected_reply": "Hi Carlos, this happens when the email subject line changes mid-thread. I've adjusted your thread grouping settings to be more lenient with subject variations."
+  },
+  {
+    "email": "We're a consulting firm and recommend tools to clients. Do you have a partner program?",
+    "expected_reply": "Hi Grace, yes! I've sent you our Partner Program deck. We offer 25% recurring commissions and co-marketing support. I've scheduled a call with our partnerships lead for July 29."
+  },
+  {
+    "email": "Can we create custom roles beyond Admin and Agent? Like 'Supervisor' or 'Viewer'?",
+    "expected_reply": "Hi Aisha, custom roles are available on our Enterprise plan. I've created 'Supervisor' and 'Viewer' roles for your account with the permissions you specified."
+  },
+  {
+    "email": "Why did my price increase this month? I didn't change anything.",
+    "expected_reply": "Hi Ethan, the price increase is due to our annual pricing adjustment communicated on March 6. Your plan remains the same, but the base price increased by 5%."
+  },
+  {
+    "email": "Can we restrict certain agents from seeing billing-related emails?",
+    "expected_reply": "Hi Andrew, yes, you can set conversation-level permissions. I've created a 'Billing' tag and restricted it to admin and billing team members only."
+  },
+  {
+    "email": "Where is my refund? I requested it 30 days ago and still haven't received it. Order HI-60FKHMY4.",
+    "expected_reply": "Hi Olivia, I completely understand your frustration. I've checked order HI-60FKHMY4 and confirmed the refund was processed. It typically takes 5-7 business days, but in some cases up to 10. If it doesn't appear soon, please reply and I'll escalate immediately."
+  },
+  {
+    "email": "Can we build a chatbot that uses Hiver data to answer customer questions?",
+    "expected_reply": "Hi Dakota, yes! You can build a chatbot using our API to fetch conversation data and our webhook to receive real-time updates. I've sent you a chatbot starter kit."
+  },
+  {
+    "email": "The mobile app crashes right after login on iOS 17.2. I reinstalled twice.",
+    "expected_reply": "Hi Sofia, this is related to a bug in iOS 17.2. Our engineering team has pushed a hotfix (v2.5.1). Please update the app from the App Store."
+  },
+  {
+    "email": "Is there a way to see which agents are online and what they're working on in real-time?",
+    "expected_reply": "Hi Taylor, I've enabled the real-time activity dashboard for your account. You can see which agents are online, what conversations they're viewing, and their current status."
+  },
+  {
+    "email": "Can we book a demo with your team for our executive stakeholders?",
+    "expected_reply": "Hi Maya, I'd love to arrange a demo for your stakeholders. I've scheduled a 30-minute executive demo for July 29 with our solutions architect. I've also prepared a tailored deck focusing on Fintech use cases."
+  },
+  {
+    "email": "How do I export a list of all active users and their last login date?",
+    "expected_reply": "Hi Andrew, I've generated a CSV export of all active users with their last login dates, roles, and assigned inboxes."
+  },
+  {
+    "email": "Two agents replied to the same customer email. How do we prevent this?",
+    "expected_reply": "Hi Chloe, this is exactly what our Collision Detection feature is for. I've enabled it on your account. Now, when one agent starts typing a reply, others will see a warning."
+  },
+  {
+    "email": "What's the difference between a shared inbox and email delegation in Gmail?",
+    "expected_reply": "Hi Layla, great question! A shared inbox gives your entire team visibility into all conversations, with assignment, collision detection, and analytics. Email delegation only lets one person access another's inbox without those features."
+  },
+  {
+    "email": "We're migrating from Help Scout. Any best practices for setting up a shared inbox?",
+    "expected_reply": "Hi Noah, great choice! I've attached our Education migration playbook. Key tips: 1) Set up tags first, 2) Use automation rules for routing, 3) Train on collision detection. I've also scheduled a migration consult for July 25."
+  },
+  {
+    "email": "Do you offer discounts for non-profits or educational institutions?",
+    "expected_reply": "Hi Fatima, yes, we offer 50% off for registered non-profits and educational institutions. I've sent you the discount application form. Once approved, the discount applies to all future invoices retroactively."
+  },
+  {
+    "email": "Can we auto-assign emails based on current workload rather than round-robin?",
+    "expected_reply": "Hi Chloe, great idea! We have a 'Workload-based assignment' feature in beta. I've enabled it on your account. You can set max open tickets per agent in Settings > Automation."
+  },
+  {
+    "email": "Can we set up round-robin assignment with weighting (e.g., senior agents get 60%)?",
+    "expected_reply": "Hi Zara, weighted round-robin is available on our Enterprise plan. I've configured it so senior agents receive 60% of new assignments and junior agents receive 40%."
+  },
+  {
+    "email": "Love the product but wanted to share feedback: dark mode would be great.",
+    "expected_reply": "Hi Chloe, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-6919) and shared it with our PM. We're actually exploring something similar in Q4."
+  },
+  {
+    "email": "I was charged $999 but your pricing page says Enterprise is $499. Please explain.",
+    "expected_reply": "Hi James, I apologize for the confusion. The $999 charge includes a one-time onboarding fee. I've issued a $500 credit to your account, and your next invoice will show the correct $499 amount."
+  },
+  {
+    "email": "Our webhook payloads are missing the 'customer_email' field. Was this removed?",
+    "expected_reply": "Hi Sofia, the 'customer_email' field was not removed — it was renamed to 'sender_email' in API v2. I've updated your webhook configuration to use the new field name."
+  },
+  {
+    "email": "We're evaluating Hiver for our Healthcare company. Do you have case studies?",
+    "expected_reply": "Hi Thomas, I've attached case studies from SynergyWorks and MeteorApps in Healthcare. Both had similar team sizes and use cases. I'd also love to connect you with James for a reference call."
+  },
+  {
+    "email": "I need to change my account email from ethandavis@innovatelab.org to sam.miller@acme.com.",
+    "expected_reply": "Hi Mia, I've updated your account email to sam.miller@acme.com. All future notifications and login emails will go there."
+  },
+  {
+    "email": "I see a charge from Hiver I don't recognize. Can you tell me what it's for?",
+    "expected_reply": "Hi James, I've looked up the charge and it corresponds to your Ultimate plan renewal. I've attached the invoice for your reference."
+  },
+  {
+    "email": "Our intern needs temporary access for 3 months. Can we add them without a full seat?",
+    "expected_reply": "Hi Raj, I've added the intern as a temporary user with an expiration date of October 28. Their seat will be automatically deactivated then."
+  },
+  {
+    "email": "We'd like to build an internal dashboard using Hiver data. Do you have a REST API?",
+    "expected_reply": "Hi Avery, yes! We have a REST API with a rate limit of 200 requests per minute. I've generated API keys for your account and sent them securely. I've also attached our API documentation and a Postman collection."
+  },
+  {
+    "email": "Do you offer discounts for non-profits or educational institutions?",
+    "expected_reply": "Hi Matthew, yes, we offer 50% off for registered non-profits and educational institutions. I've sent you the discount application form. Once approved, the discount applies to all future invoices retroactively."
+  },
+  {
+    "email": "We'd like to set up SSO via Azure AD. Do you support SAML 2.0?",
+    "expected_reply": "Hi Isabella, yes, we support SAML 2.0 via Azure AD. I've started the setup and need your IdP metadata URL. I've attached our SSO configuration guide."
+  },
+  {
+    "email": "Conversation threads are splitting into multiple entries instead of staying grouped.",
+    "expected_reply": "Hi Lucas, this happens when the email subject line changes mid-thread. I've adjusted your thread grouping settings to be more lenient with subject variations."
+  },
+  {
+    "email": "Our current admin Christopher is leaving. I need to transfer ownership to Matthew.",
+    "expected_reply": "Hi David, I've initiated the ownership transfer from Christopher to Matthew. Matthew will receive an email to accept within 1 hour."
+  },
+  {
+    "email": "How often do you release new features? Is there a public roadmap?",
+    "expected_reply": "Hi Zoe, we release new features every 2 weeks. I've sent you a link to our public roadmap where you can see what's in development, what's in beta, and what's planned."
+  },
+  {
+    "email": "The mobile app crashes right after login on iOS 16.5. I reinstalled twice.",
+    "expected_reply": "Hi Chloe, this is related to a bug in iOS 16.5. Our engineering team has pushed a hotfix (v2.4.1). Please update the app from the App Store."
+  },
+  {
+    "email": "How do I add a new team member starting next week?",
+    "expected_reply": "Hi Taylor, welcome aboard! I've sent an invite to the new member's email with instructions. Once they accept, you can assign them to your shared inbox from Settings > Team."
+  },
+  {
+    "email": "Can we get a detailed breakdown of what each seat costs? Our finance team needs this.",
+    "expected_reply": "Hi Olivia, I've attached a detailed cost breakdown per seat for your Starter plan. Each seat costs $1.32/month."
+  },
+  {
+    "email": "Can we create a customer portal where they can view their ticket status?",
+    "expected_reply": "Hi Fatima, customer portals are available on our Enterprise plan. I've created a portal for your account where customers can view ticket status, add comments, and upload files."
+  },
+  {
+    "email": "The Gmail integration stopped working. Emails aren't syncing to our shared inbox 'Support'.",
+    "expected_reply": "Hi Fatima, I'm sorry for the disruption. I can see a sync error for 'Support'. I've reset the connection and emails should start appearing within 15 minutes."
+  },
+  {
+    "email": "Do you have upcoming webinars on advanced features?",
+    "expected_reply": "Hi Joseph, our next 'Hiver Advanced' webinar is on July 24. I've reserved 7 seats for your team. I've also sent you recordings of past sessions on automation and analytics."
+  },
+  {
+    "email": "Our webhook endpoint is getting 504 timeouts from Hiver. Started 30 days ago.",
+    "expected_reply": "Hi Joseph, I've increased the webhook timeout to 30 seconds and added retry logic. Our logs show your endpoint was responding slowly. I've also sent you the failed payload IDs."
+  },
+  {
+    "email": "Hi, I was charged for 150 seats but we downgraded to 81 last month. Refund the difference?",
+    "expected_reply": "Hi Andrew, I see the issue — our system didn't process your seat downgrade. I've corrected it to 81 seats and issued a credit of $200 for the overcharge."
+  },
+  {
+    "email": "The Zapier integration keeps disconnecting every few days. We have to reconnect manually.",
+    "expected_reply": "Hi Elena, I've identified an OAuth token refresh issue causing the Zapier disconnections. I've implemented a permanent fix and increased the token validity period."
+  },
+  {
+    "email": "We'd like to set up SSO via Okta. Do you support SAML 2.0?",
+    "expected_reply": "Hi Elena, yes, we support SAML 2.0 via Okta. I've started the setup and need your IdP metadata URL. I've attached our SSO configuration guide."
+  },
+  {
+    "email": "We're an agency and want to white-label the customer-facing email footers. Is this possible?",
+    "expected_reply": "Hi Sofia, white-labeling is available on our Enterprise plan. I've upgraded your account for a 14-day trial. You can customize footers, logos, and the portal URL in Settings > Branding."
+  },
+  {
+    "email": "The 'Send Later' feature sends emails immediately instead of at the scheduled time.",
+    "expected_reply": "Hi David, I've identified a timezone bug in the 'Send Later' feature. I've fixed it for your account and scheduled emails will now send at the correct local time."
+  },
+  {
+    "email": "Can we submit feature requests and track their status?",
+    "expected_reply": "Hi Michael, yes! I've created a feature request portal for your account. You can submit requests, track their status, and see what other customers have requested. Our PM team reviews these weekly."
+  },
+  {
+    "email": "The password reset link expires immediately when I click it. I've tried 3 times.",
+    "expected_reply": "Hi Carlos, I've reset your password manually and sent a temporary password to your backup email. Please log in and change it immediately."
+  },
+  {
+    "email": "Can we increase the file attachment limit from 25MB?",
+    "expected_reply": "Hi Nathan, our current attachment limit is 25MB per email, which aligns with Gmail's limits. For larger files, I recommend using our integration with Google Drive or Dropbox."
+  },
+  {
+    "email": "The @mentions feature isn't notifying the tagged agent. Is this a known bug?",
+    "expected_reply": "Hi Sam, yes, this was a bug affecting @mentions in shared inboxes with more than 20 members. I've applied the fix to your account."
+  },
+  {
+    "email": "The password reset link expires immediately when I click it. I've tried 3 times.",
+    "expected_reply": "Hi Elena, I've reset your password manually and sent a temporary password to your backup email. Please log in and change it immediately."
+  },
+  {
+    "email": "The @mentions feature isn't notifying the tagged agent. Is this a known bug?",
+    "expected_reply": "Hi Hannah, yes, this was a bug affecting @mentions in shared inboxes with more than 20 members. I've applied the fix to your account."
+  },
+  {
+    "email": "I was charged twice this month. My card ending in ****5645 shows two $499 charges. Please fix this.",
+    "expected_reply": "Hi Layla, I sincerely apologize for the double charge. I've identified the duplicate transaction and initiated a refund of $499 to your card ending in ****5645. It will appear in 5-7 business days."
+  },
+  {
+    "email": "Bulk actions are extremely slow. Selecting 100+ conversations takes forever.",
+    "expected_reply": "Hi Elena, I've identified a performance bottleneck in bulk actions for large selections. In the meantime, I recommend breaking bulk actions into batches of 50 conversations or less."
+  },
+  {
+    "email": "Is there a way to automatically tag emails based on keywords in the subject?",
+    "expected_reply": "Hi Isabella, yes, you can set up keyword-based auto-tagging. I've created rules for common keywords in your industry. Emails with matching subjects will be automatically tagged."
+  },
+  {
+    "email": "Do you offer professional services for implementation and migration?",
+    "expected_reply": "Hi Alex, yes, we offer professional services including implementation, migration, and training. I've sent you our services catalog and pricing. I've also scheduled a scoping call for July 23."
+  },
+  {
+    "email": "Our intern needs temporary access for 3 months. Can we add them without a full seat?",
+    "expected_reply": "Hi Casey, I've added the intern as a temporary user with an expiration date of October 26. Their seat will be automatically deactivated then."
+  },
+  {
+    "email": "The Chrome extension shows an outdated version number even after updating.",
+    "expected_reply": "Hi Hannah, I've forced a cache refresh for your Chrome extension. Please uninstall it, clear your browser cache, and reinstall from the Chrome Web Store."
+  },
+  {
+    "email": "Can we restrict certain agents from seeing billing-related emails?",
+    "expected_reply": "Hi Raj, yes, you can set conversation-level permissions. I've created a 'Billing' tag and restricted it to admin and billing team members only."
+  },
+  {
+    "email": "How do we export our data if we decide to leave Hiver?",
+    "expected_reply": "Hi Matthew, we believe in data portability. You can export all conversations, contacts, and analytics via our API or request a full data dump from our team. I've attached the data export guide and our data deletion policy."
+  },
+  {
+    "email": "Can we build a chatbot that uses Hiver data to answer customer questions?",
+    "expected_reply": "Hi Raj, yes! You can build a chatbot using our API to fetch conversation data and our webhook to receive real-time updates. I've sent you a chatbot starter kit."
+  },
+  {
+    "email": "How do I disable email notifications for myself but keep them for the team?",
+    "expected_reply": "Hi Benjamin, I've disabled email notifications for your account while keeping them enabled for the team. You can still receive in-app notifications and @mentions."
+  },
+  {
+    "email": "Any plans for dark mode? Our team works night shifts and the bright UI is straining.",
+    "expected_reply": "Hi Casey, dark mode is on our Q1 roadmap! I've added your team to the early access list. In the meantime, I've shared a Chrome extension workaround that several teams use."
+  },
+  {
+    "email": "What happens to our data if Hiver shuts down or gets acquired?",
+    "expected_reply": "Hi Alex, we have a data portability and continuity plan. If anything were to happen, you have 90 days to export all data. We also offer data escrow for Enterprise customers."
+  },
+  {
+    "email": "Can I get a pro-rated refund if I cancel my subscription mid-cycle?",
+    "expected_reply": "Hi Maya, yes, we offer pro-rated refunds. I've calculated your refund as $7.71 for the remaining days. It will be processed to your original payment method within 5-7 business days."
+  },
+  {
+    "email": "Can we get a dedicated account manager for our Enterprise plan?",
+    "expected_reply": "Hi Chloe, absolutely. I've assigned Liam as your dedicated account manager. They'll be your primary point of contact for strategic planning, quarterly reviews, and escalation."
+  },
+  {
+    "email": "Do you have a community forum or Slack group for users?",
+    "expected_reply": "Hi Fatima, yes! We have an active community on Slack and a user forum. I've sent you invites to both. The Slack community has 2049 members and is great for peer support."
+  },
+  {
+    "email": "I need to change the primary admin because the current one is on extended leave.",
+    "expected_reply": "Hi Dakota, I've transferred primary admin rights to you. The current admin on leave will be downgraded to a standard user but can be reinstated when they return."
+  },
+  {
+    "email": "Can we integrate Hiver with our internal knowledge base?",
+    "expected_reply": "Hi Emma, we support knowledge base integrations via API and webhook. I've sent you our integration guide and a sample webhook configuration."
+  },
+  {
+    "email": "Can I switch from monthly to annual billing? I want to save money on my Pro plan.",
+    "expected_reply": "Hi Carlos, absolutely! I've switched your plan to annual billing. You'll save 30% compared to monthly. Your next invoice will be $790 for the year instead of $79/month."
+  },
+  {
+    "email": "Priya left the company. I need to remove their access and reassign emails to Quinn.",
+    "expected_reply": "Hi Taylor, I've deactivated Priya's account and reassigned all open conversations to Quinn. Their historical data remains intact for reporting."
+  },
+  {
+    "email": "Can we have more than one admin? We have 200 team members.",
+    "expected_reply": "Hi Aria, yes! I've upgraded your plan to include 2 admin seats. You can assign admin roles in Settings > Team > Permissions."
+  },
+  {
+    "email": "Search for emails from June returns nothing even though I can see them in Gmail.",
+    "expected_reply": "Hi Nora, there was an indexing delay affecting searches before May 2. I've triggered a re-index for your account. Search should work fully within 2 hours."
+  },
+  {
+    "email": "Do you have upcoming webinars on advanced features?",
+    "expected_reply": "Hi Ethan, our next 'Hiver Advanced' webinar is on July 17. I've reserved 17 seats for your team. I've also sent you recordings of past sessions on automation and analytics."
+  },
+  {
+    "email": "Our current admin Andrew is leaving. I need to transfer ownership to Joseph.",
+    "expected_reply": "Hi Liam, I've initiated the ownership transfer from Andrew to Joseph. Joseph will receive an email to accept within 1 hour."
+  },
+  {
+    "email": "Can we pay via wire transfer instead of credit card for our Basic plan?",
+    "expected_reply": "Hi Olivia, yes, we accept wire transfers for annual plans. I've sent our bank details and a wire transfer invoice to your billing email."
+  },
+  {
+    "email": "We stopped getting Slack notifications for new emails in #sales since last week.",
+    "expected_reply": "Hi Lily, I've reauthorized the Slack connection and pushed a fix for the notification pipeline. You should start seeing notifications in #sales within 10 minutes."
+  },
+  {
+    "email": "Our current admin Liam is leaving. I need to transfer ownership to Dakota.",
+    "expected_reply": "Hi Quinn, I've initiated the ownership transfer from Liam to Dakota. Dakota will receive an email to accept within 1 hour."
+  },
+  {
+    "email": "Conversation threads are splitting into multiple entries instead of staying grouped.",
+    "expected_reply": "Hi Raj, this happens when the email subject line changes mid-thread. I've adjusted your thread grouping settings to be more lenient with subject variations."
+  },
+  {
+    "email": "I see a charge from Hiver I don't recognize. Can you tell me what it's for?",
+    "expected_reply": "Hi Ethan, I've looked up the charge and it corresponds to your Enterprise plan renewal. I've attached the invoice for your reference."
+  },
+  {
+    "email": "Our intern needs temporary access for 3 months. Can we add them without a full seat?",
+    "expected_reply": "Hi Zara, I've added the intern as a temporary user with an expiration date of October 18. Their seat will be automatically deactivated then."
+  },
+  {
+    "email": "Can we create a feedback survey that's sent after a conversation is resolved?",
+    "expected_reply": "Hi Maya, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved."
+  },
+  {
+    "email": "I need to change the primary admin because the current one is on extended leave.",
+    "expected_reply": "Hi Michael, I've transferred primary admin rights to you. The current admin on leave will be downgraded to a standard user but can be reinstated when they return."
+  },
+  {
+    "email": "We use Pipedrive heavily. Do you have a native integration or do we need Zapier?",
+    "expected_reply": "Hi Aisha, we have a native Pipedrive integration! I've connected it to your account. Conversations will now sync as Ticket records. I've attached the setup guide."
+  },
+  {
+    "email": "The mobile push notifications are delayed by 10-15 minutes. Can this be fixed?",
+    "expected_reply": "Hi Maya, I've identified a delay in our push notification queue. I've optimized the pipeline and your notifications should now arrive within 30 seconds."
+  },
+  {
+    "email": "Where is my refund? I requested it 60 days ago and still haven't received it. Order HI-46HID25O.",
+    "expected_reply": "Hi Mia, I completely understand your frustration. I've checked order HI-46HID25O and confirmed the refund was processed. It typically takes 5-7 business days, but in some cases up to 10. If it doesn't appear soon, please reply and I'll escalate immediately."
+  },
+  {
+    "email": "The @mentions feature isn't notifying the tagged agent. Is this a known bug?",
+    "expected_reply": "Hi Henry, yes, this was a bug affecting @mentions in shared inboxes with more than 20 members. I've applied the fix to your account."
+  },
+  {
+    "email": "Our intern needs temporary access for 3 months. Can we add them without a full seat?",
+    "expected_reply": "Hi Mia, I've added the intern as a temporary user with an expiration date of October 10. Their seat will be automatically deactivated then."
+  },
+  {
+    "email": "The mobile push notifications are delayed by 10-15 minutes. Can this be fixed?",
+    "expected_reply": "Hi Taylor, I've identified a delay in our push notification queue. I've optimized the pipeline and your notifications should now arrive within 30 seconds."
+  },
+  {
+    "email": "I was charged sales tax this month but wasn't before. Why the change?",
+    "expected_reply": "Hi Chloe, sales tax was added because your billing address was updated to a taxable region. I've attached the tax details and our tax exemption form."
+  },
+  {
+    "email": "We're a consulting firm and recommend tools to clients. Do you have a partner program?",
+    "expected_reply": "Hi Nathan, yes! I've sent you our Partner Program deck. We offer 25% recurring commissions and co-marketing support. I've scheduled a call with our partnerships lead for July 22."
+  },
+  {
+    "email": "Our webhook payloads are missing the 'customer_email' field. Was this removed?",
+    "expected_reply": "Hi James, the 'customer_email' field was not removed — it was renamed to 'sender_email' in API v2. I've updated your webhook configuration to use the new field name."
+  },
+  {
+    "email": "We rebranded from LunarBase to PixelPerfect. Can you update this across our account?",
+    "expected_reply": "Hi Raj, congratulations on the rebrand! I've updated your company name to PixelPerfect across your account, billing, and invoices. The change will reflect on your next invoice."
+  },
+  {
+    "email": "We just signed up. What's the best way to get our team started?",
+    "expected_reply": "Hi Carlos, welcome aboard! I've sent you a personalized onboarding checklist and invited you to our 'Getting Started' webinar on July 28. I've also assigned Taylor as your dedicated success manager."
+  },
+  {
+    "email": "Is there a way to track agent response time by category or tag?",
+    "expected_reply": "Hi Aisha, I've enabled category-level response time tracking on your account. You can now see average response times broken down by tag, category, and agent."
+  },
+  {
+    "email": "I was promised a refund of $149 but only received $103.52. Where is the rest?",
+    "expected_reply": "Hi Riley, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $100.36 to your account. The full refund is now complete."
+  },
+  {
+    "email": "Any plans for dark mode? Our team works night shifts and the bright UI is straining.",
+    "expected_reply": "Hi Maya, dark mode is on our Q3 roadmap! I've added your team to the early access list. In the meantime, I've shared a Chrome extension workaround that several teams use."
+  },
+  {
+    "email": "Can we get a dedicated account manager for our Enterprise plan?",
+    "expected_reply": "Hi Quinn, absolutely. I've assigned Nora as your dedicated account manager. They'll be your primary point of contact for strategic planning, quarterly reviews, and escalation."
+  },
+  {
+    "email": "CSV export fails at 86%. We have about 3510 conversations.",
+    "expected_reply": "Hi Maya, the export is timing out due to the large volume. I've generated the CSV on our servers and sent you a secure download link (expires in 7 days)."
+  },
+  {
+    "email": "Do you support webhooks for real-time event notifications?",
+    "expected_reply": "Hi Noah, yes, we support webhooks for events like new conversation, assignment change, and resolution. I've generated a webhook secret for your account and sent you the endpoint configuration."
+  },
+  {
+    "email": "Can we get a dedicated account manager for our Enterprise plan?",
+    "expected_reply": "Hi Olivia, absolutely. I've assigned Wei as your dedicated account manager. They'll be your primary point of contact for strategic planning, quarterly reviews, and escalation."
+  },
+  {
+    "email": "Is there a way to see which agents are online and what they're working on in real-time?",
+    "expected_reply": "Hi Sofia, I've enabled the real-time activity dashboard for your account. You can see which agents are online, what conversations they're viewing, and their current status."
+  },
+  {
+    "email": "Can we require approval before an agent can delete a conversation?",
+    "expected_reply": "Hi Sam, I've enabled deletion approval workflows on your account. Now, any agent attempting to delete a conversation will require admin approval."
+  },
+  {
+    "email": "How do I set up different signatures for different shared inboxes?",
+    "expected_reply": "Hi Benjamin, you can set inbox-specific signatures in Settings > Inboxes > [Inbox Name] > Signature. I've created a quick video walkthrough and sent it to your email."
+  },
+  {
+    "email": "Can we get a security questionnaire filled out for our vendor review?",
+    "expected_reply": "Hi Thomas, I've completed your security questionnaire and attached it here. It covers our infrastructure, data handling, access controls, and incident response."
+  },
+  {
+    "email": "We need to retag about 893 conversations. Is there a bulk edit option?",
+    "expected_reply": "Hi Riley, yes! I've enabled 'Bulk Actions' on your account. Go to Conversations > Select All > Bulk Edit Tags. You can also use our API for larger batches."
+  },
+  {
+    "email": "Is there an AI feature that suggests replies to common questions?",
+    "expected_reply": "Hi Jordan, yes! Our AI Reply Suggestions feature is in beta. I've enabled it on your account. It suggests replies based on your team's past responses and can be trained on your specific tone."
+  },
+  {
+    "email": "Is there a way to see who deleted a conversation and when?",
+    "expected_reply": "Hi Avery, yes, our audit log tracks all deletions. I've pulled the log for your account and sent it via email. It shows the user, timestamp, and conversation ID for every deletion in the past 90 days."
+  },
+  {
+    "email": "Hi, I accidentally purchased the wrong plan. Can I get a refund?",
+    "expected_reply": "Hi Maya, no problem at all. I've processed a full refund for your Starter plan. The refund of $249 will appear in 5-7 business days. Let me know if you need help finding the right plan."
+  },
+  {
+    "email": "Can we set up round-robin assignment with weighting (e.g., senior agents get 60%)?",
+    "expected_reply": "Hi Casey, weighted round-robin is available on our Enterprise plan. I've configured it so senior agents receive 60% of new assignments and junior agents receive 40%."
+  },
+  {
+    "email": "Hi, I accidentally purchased the wrong plan. Can I get a refund?",
+    "expected_reply": "Hi Avery, no problem at all. I've processed a full refund for your Business plan. The refund of $599 will appear in 5-7 business days. Let me know if you need help finding the right plan."
+  },
+  {
+    "email": "Can we enforce 2FA for all admin accounts?",
+    "expected_reply": "Hi Henry, I've enforced 2FA for all admin accounts on your workspace. Each admin will be prompted to set up 2FA on their next login."
+  },
+  {
+    "email": "We'd like to set up SSO via Okta. Do you support SAML 2.0?",
+    "expected_reply": "Hi Riley, yes, we support SAML 2.0 via Okta. I've started the setup and need your IdP metadata URL. I've attached our SSO configuration guide."
+  },
+  {
+    "email": "Can we create custom roles beyond Admin and Agent? Like 'Supervisor' or 'Viewer'?",
+    "expected_reply": "Hi Fatima, custom roles are available on our Enterprise plan. I've created 'Supervisor' and 'Viewer' roles for your account with the permissions you specified."
+  },
+  {
+    "email": "Any plans for dark mode? Our team works night shifts and the bright UI is straining.",
+    "expected_reply": "Hi Riley, dark mode is on our Q4 roadmap! I've added your team to the early access list. In the meantime, I've shared a Chrome extension workaround that several teams use."
+  },
+  {
+    "email": "Can we integrate Hiver with our internal knowledge base?",
+    "expected_reply": "Hi Grace, we support knowledge base integrations via API and webhook. I've sent you our integration guide and a sample webhook configuration."
+  },
+  {
+    "email": "Can I get a pro-rated refund if I cancel my subscription mid-cycle?",
+    "expected_reply": "Hi Morgan, yes, we offer pro-rated refunds. I've calculated your refund as $90.7 for the remaining days. It will be processed to your original payment method within 5-7 business days."
+  },
+  {
+    "email": "We acquired another company. Can we merge their Hiver account into ours?",
+    "expected_reply": "Hi Riley, I've initiated the account merge process. I'll need admin approval from both accounts. The merge typically takes 2-3 business days and all data will be preserved."
+  },
+  {
+    "email": "Our automation rule to assign emails from synergyworks.com to Alex isn't working.",
+    "expected_reply": "Hi Casey, I checked your automation rule and found the condition was set to 'contains' instead of 'from domain'. I've corrected it and tested with a sample email — it now assigns to Alex correctly."
+  },
+  {
+    "email": "What's the difference between a shared inbox and email delegation in Gmail?",
+    "expected_reply": "Hi Sofia, great question! A shared inbox gives your entire team visibility into all conversations, with assignment, collision detection, and analytics. Email delegation only lets one person access another's inbox without those features."
+  },
+  {
+    "email": "Search for emails from April returns nothing even though I can see them in Gmail.",
+    "expected_reply": "Hi Chloe, there was an indexing delay affecting searches before May 13. I've triggered a re-index for your account. Search should work fully within 2 hours."
+  },
+  {
+    "email": "I accidentally deleted a shared inbox. Can it be recovered?",
+    "expected_reply": "Hi Michael, don't worry — I've restored your shared inbox from our backup. All conversations, rules, and tags are intact."
+  },
+  {
+    "email": "Our custom API calls are returning 429 errors. Did the rate limit change?",
+    "expected_reply": "Hi Avery, our rate limit is 100 requests per minute and hasn't changed. The 429 errors suggest you're hitting the limit. I've sent you a guide on implementing request batching."
+  },
+  {
+    "email": "I need a VAT invoice for our records. Our VAT number is GB824022357.",
+    "expected_reply": "Hi Benjamin, I've generated your VAT invoice with number GB824022357 and attached it here. It includes all required details for your tax records."
+  },
+  {
+    "email": "Can I switch from monthly to annual billing? I want to save money on my Enterprise plan.",
+    "expected_reply": "Hi Chloe, absolutely! I've switched your plan to annual billing. You'll save 10% compared to monthly. Your next invoice will be $1990 for the year instead of $199/month."
+  },
+  {
+    "email": "Do you have on-premise deployment options for highly regulated industries?",
+    "expected_reply": "Hi Sarah, we offer on-premise deployment for Enterprise customers in regulated industries. I've sent you our on-premise deployment guide and scheduled a technical scoping call with our infrastructure team."
+  },
+  {
+    "email": "The collision detection banner doesn't show when someone else is viewing the email.",
+    "expected_reply": "Hi Alex, I've enabled real-time collision detection on your account. The banner will now show within 2 seconds when another agent opens the same conversation."
+  },
+  {
+    "email": "Can we schedule recurring reports to be emailed to leadership weekly?",
+    "expected_reply": "Hi Lily, I've set up a weekly recurring report that will be emailed to your leadership team every Monday. It includes response times, resolution rates, and conversation volume."
+  },
+  {
+    "email": "Is there a way to track agent response time by category or tag?",
+    "expected_reply": "Hi Olivia, I've enabled category-level response time tracking on your account. You can now see average response times broken down by tag, category, and agent."
+  },
+  {
+    "email": "We need to retag about 228 conversations. Is there a bulk edit option?",
+    "expected_reply": "Hi Sam, yes! I've enabled 'Bulk Actions' on your account. Go to Conversations > Select All > Bulk Edit Tags. You can also use our API for larger batches."
+  },
+  {
+    "email": "Can we create custom fields for conversations like 'Priority' and 'Region'?",
+    "expected_reply": "Hi Chloe, yes, custom fields are available on our Pro plan. I've created 'Priority' and 'Region' fields for your account. You can add them to any conversation and use them in automation rules and reports."
+  },
+  {
+    "email": "Can I downgrade from Basic to Basic without losing my data?",
+    "expected_reply": "Hi Alex, yes, you can downgrade to Basic without losing any data. I've processed the downgrade effective immediately. Your next invoice will reflect the Basic plan rate of $29."
+  },
+  {
+    "email": "How do I set up different signatures for different shared inboxes?",
+    "expected_reply": "Hi Henry, you can set inbox-specific signatures in Settings > Inboxes > [Inbox Name] > Signature. I've created a quick video walkthrough and sent it to your email."
+  },
+  {
+    "email": "The @mentions feature isn't notifying the tagged agent. Is this a known bug?",
+    "expected_reply": "Hi Ethan, yes, this was a bug affecting @mentions in shared inboxes with more than 20 members. I've applied the fix to your account."
+  },
+  {
+    "email": "Can we restrict certain agents from seeing billing-related emails?",
+    "expected_reply": "Hi Michael, yes, you can set conversation-level permissions. I've created a 'Billing' tag and restricted it to admin and billing team members only."
+  },
+  {
+    "email": "We acquired another company. Can we merge their Hiver account into ours?",
+    "expected_reply": "Hi Zoe, I've initiated the account merge process. I'll need admin approval from both accounts. The merge typically takes 2-3 business days and all data will be preserved."
+  },
+  {
+    "email": "Can I get a receipt for my last payment? I need it for expense reporting.",
+    "expected_reply": "Hi Olivia, I've attached the receipt for your last payment. It includes all details needed for expense reporting."
+  },
+  {
+    "email": "Do you have a Chrome extension for Gmail or only the sidebar?",
+    "expected_reply": "Hi Lily, we have both the Gmail sidebar integration and a standalone Chrome extension. The extension provides quick access to Hiver without opening Gmail."
+  },
+  {
+    "email": "Our automation rule to assign emails from techflow.io to Alex isn't working.",
+    "expected_reply": "Hi Maya, I checked your automation rule and found the condition was set to 'contains' instead of 'from domain'. I've corrected it and tested with a sample email — it now assigns to Alex correctly."
+  },
+  {
+    "email": "We rebranded from DataPulse to FastTrack. Can you update this across our account?",
+    "expected_reply": "Hi Chloe, congratulations on the rebrand! I've updated your company name to FastTrack across your account, billing, and invoices. The change will reflect on your next invoice."
+  },
+  {
+    "email": "Do you have a community forum or Slack group for users?",
+    "expected_reply": "Hi Daniel, yes! We have an active community on Slack and a user forum. I've sent you invites to both. The Slack community has 4750 members and is great for peer support."
+  },
+  {
+    "email": "Our webhook endpoint is getting 504 timeouts from Hiver. Started 21 days ago.",
+    "expected_reply": "Hi Liam, I've increased the webhook timeout to 30 seconds and added retry logic. Our logs show your endpoint was responding slowly. I've also sent you the failed payload IDs."
+  },
+  {
+    "email": "The mobile app crashes right after login on iOS 17.0. I reinstalled twice.",
+    "expected_reply": "Hi James, this is related to a bug in iOS 17.0. Our engineering team has pushed a hotfix (v2.5.0). Please update the app from the App Store."
+  },
+  {
+    "email": "My credit card was declined but I updated it. Will you retry the charge or do I need to pay manually?",
+    "expected_reply": "Hi James, I've triggered a retry of the charge on your updated card. It should process within 24 hours. No manual payment is needed."
+  },
+  {
+    "email": "We stopped getting Slack notifications for new emails in #alerts since last week.",
+    "expected_reply": "Hi Henry, I've reauthorized the Slack connection and pushed a fix for the notification pipeline. You should start seeing notifications in #alerts within 10 minutes."
+  },
+  {
+    "email": "The API documentation example for creating a conversation is returning a 400 error.",
+    "expected_reply": "Hi Carlos, the API documentation was updated but the example wasn't. The correct payload structure requires 'sender' instead of 'from_address'. I've sent you the corrected example."
+  },
+  {
+    "email": "The mobile app crashes right after login on iOS 17.3. I reinstalled twice.",
+    "expected_reply": "Hi Layla, this is related to a bug in iOS 17.3. Our engineering team has pushed a hotfix (v2.5.1). Please update the app from the App Store."
+  },
+  {
+    "email": "Do you have a Chrome extension for Gmail or only the sidebar?",
+    "expected_reply": "Hi Carlos, we have both the Gmail sidebar integration and a standalone Chrome extension. The extension provides quick access to Hiver without opening Gmail."
+  },
+  {
+    "email": "We rebranded from SynergyWorks to PixelPerfect. Can you update this across our account?",
+    "expected_reply": "Hi Michael, congratulations on the rebrand! I've updated your company name to PixelPerfect across your account, billing, and invoices. The change will reflect on your next invoice."
+  },
+  {
+    "email": "Is there a way to automatically close resolved conversations after 90 days?",
+    "expected_reply": "Hi Grace, yes, you can set up an auto-close rule. I've created a rule that closes conversations marked 'Resolved' after 90 days of inactivity."
+  },
+  {
+    "email": "Can we build a chatbot that uses Hiver data to answer customer questions?",
+    "expected_reply": "Hi Daniel, yes! You can build a chatbot using our API to fetch conversation data and our webhook to receive real-time updates. I've sent you a chatbot starter kit."
+  },
+  {
+    "email": "How do I set up different signatures for different shared inboxes?",
+    "expected_reply": "Hi Matthew, you can set inbox-specific signatures in Settings > Inboxes > [Inbox Name] > Signature. I've created a quick video walkthrough and sent it to your email."
+  },
+  {
+    "email": "Can I switch from monthly to annual billing? I want to save money on my Business plan.",
+    "expected_reply": "Hi Joseph, absolutely! I've switched your plan to annual billing. You'll save 15% compared to monthly. Your next invoice will be $790 for the year instead of $79/month."
+  },
+  {
+    "email": "Can we create email templates with dynamic variables like {customer_name}?",
+    "expected_reply": "Hi Sofia, yes, dynamic variables are supported in templates. You can use {customer_name}, {ticket_id}, {agent_name}, and more. I've created a sample template with variables for your account."
+  },
+  {
+    "email": "Can we increase the file attachment limit from 25MB?",
+    "expected_reply": "Hi Zoe, our current attachment limit is 25MB per email, which aligns with Gmail's limits. For larger files, I recommend using our integration with Google Drive or Dropbox."
+  },
+  {
+    "email": "We're reorganizing and want to pause our account for 3 days without losing data.",
+    "expected_reply": "Hi Layla, I've paused your billing for 3 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel."
+  },
+  {
+    "email": "Can we build custom automation triggers based on email sentiment?",
+    "expected_reply": "Hi Sarah, sentiment-based automation is in beta. I've enabled it on your account. You can now create triggers based on positive, negative, or neutral sentiment scores."
+  },
+  {
+    "email": "Email signatures aren't applying to replies sent through Hiver.",
+    "expected_reply": "Hi Wei, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies."
+  },
+  {
+    "email": "Conversation threads are splitting into multiple entries instead of staying grouped.",
+    "expected_reply": "Hi Michael, this happens when the email subject line changes mid-thread. I've adjusted your thread grouping settings to be more lenient with subject variations."
+  },
+  {
+    "email": "My accountant needs all invoices from last year. Can you send them in one go?",
+    "expected_reply": "Hi Dakota, I've compiled all your invoices from last year and sent them as a ZIP file. Each is in PDF format with full payment details."
+  },
+  {
+    "email": "We're a consulting firm and recommend tools to clients. Do you have a partner program?",
+    "expected_reply": "Hi Olivia, yes! I've sent you our Partner Program deck. We offer 20% recurring commissions and co-marketing support. I've scheduled a call with our partnerships lead for July 16."
+  },
+  {
+    "email": "We use HubSpot heavily. Do you have a native integration or do we need Zapier?",
+    "expected_reply": "Hi Casey, we have a native HubSpot integration! I've connected it to your account. Conversations will now sync as Contact records. I've attached the setup guide."
+  },
+  {
+    "email": "Can we set up round-robin assignment with weighting (e.g., senior agents get 60%)?",
+    "expected_reply": "Hi Olivia, weighted round-robin is available on our Enterprise plan. I've configured it so senior agents receive 60% of new assignments and junior agents receive 40%."
+  },
+  {
+    "email": "Can we set different SLA rules based on customer tier? Enterprise vs Standard?",
+    "expected_reply": "Hi Taylor, absolutely. I've set up tiered SLAs: Enterprise (1 hour), Standard (4 hours), Basic (24 hours). These are applied based on the 'Customer Tier' custom field."
+  },
+  {
+    "email": "I cancelled my subscription but was still charged this month. Please reverse this charge.",
+    "expected_reply": "Hi Noah, I apologize for that. I've identified the billing error and issued a full refund of $149. It will appear in 5-7 business days."
+  },
+  {
+    "email": "Can we create a customer portal where they can view their ticket status?",
+    "expected_reply": "Hi Olivia, customer portals are available on our Enterprise plan. I've created a portal for your account where customers can view ticket status, add comments, and upload files."
+  },
+  {
+    "email": "The Slack integration keeps disconnecting every few days. We have to reconnect manually.",
+    "expected_reply": "Hi James, I've identified an OAuth token refresh issue causing the Slack disconnections. I've implemented a permanent fix and increased the token validity period."
+  },
+  {
+    "email": "CSV export fails at 77%. We have about 4647 conversations.",
+    "expected_reply": "Hi Christopher, the export is timing out due to the large volume. I've generated the CSV on our servers and sent you a secure download link (expires in 7 days)."
+  },
+  {
+    "email": "The Gmail integration stopped working. Emails aren't syncing to our shared inbox 'General'.",
+    "expected_reply": "Hi Wei, I'm sorry for the disruption. I can see a sync error for 'General'. I've reset the connection and emails should start appearing within 15 minutes."
+  },
+  {
+    "email": "Can we auto-assign emails based on current workload rather than round-robin?",
+    "expected_reply": "Hi Elena, great idea! We have a 'Workload-based assignment' feature in beta. I've enabled it on your account. You can set max open tickets per agent in Settings > Automation."
+  },
+  {
+    "email": "Can we auto-assign emails based on current workload rather than round-robin?",
+    "expected_reply": "Hi Hannah, great idea! We have a 'Workload-based assignment' feature in beta. I've enabled it on your account. You can set max open tickets per agent in Settings > Automation."
+  },
+  {
+    "email": "Is there an AI feature that suggests replies to common questions?",
+    "expected_reply": "Hi Benjamin, yes! Our AI Reply Suggestions feature is in beta. I've enabled it on your account. It suggests replies based on your team's past responses and can be trained on your specific tone."
+  },
+  {
+    "email": "Our security team needs to know: Are you SOC 2 compliant? Where is data stored?",
+    "expected_reply": "Hi Riley, yes, we are SOC 2 Type II certified. Data is stored in APAC (AWS). I've attached our security whitepaper, pen-test summary, and DPA."
+  },
+  {
+    "email": "The collision detection banner doesn't show when someone else is viewing the email.",
+    "expected_reply": "Hi Matthew, I've enabled real-time collision detection on your account. The banner will now show within 2 seconds when another agent opens the same conversation."
+  },
+  {
+    "email": "Is there a way to suggest improvements to the product directly to your PM team?",
+    "expected_reply": "Hi Riley, yes! I've added you to our PM feedback program. You'll receive monthly surveys and early access to beta features. Your feedback goes directly to our product team."
+  },
+  {
+    "email": "Can we pay via wire transfer instead of credit card for our Business plan?",
+    "expected_reply": "Hi Oliver, yes, we accept wire transfers for annual plans. I've sent our bank details and a wire transfer invoice to your billing email."
+  },
+  {
+    "email": "Can we submit feature requests and track their status?",
+    "expected_reply": "Hi Noah, yes! I've created a feature request portal for your account. You can submit requests, track their status, and see what other customers have requested. Our PM team reviews these weekly."
+  },
+  {
+    "email": "Is there a way to track agent response time by category or tag?",
+    "expected_reply": "Hi Sam, I've enabled category-level response time tracking on your account. You can now see average response times broken down by tag, category, and agent."
+  },
+  {
+    "email": "Do you offer professional services for implementation and migration?",
+    "expected_reply": "Hi Matthew, yes, we offer professional services including implementation, migration, and training. I've sent you our services catalog and pricing. I've also scheduled a scoping call for July 15."
+  },
+  {
+    "email": "We use Zoho heavily. Do you have a native integration or do we need Zapier?",
+    "expected_reply": "Hi Dakota, we have a native Zoho integration! I've connected it to your account. Conversations will now sync as Contact records. I've attached the setup guide."
+  },
+  {
+    "email": "Can I switch from monthly to annual billing? I want to save money on my Pro plan.",
+    "expected_reply": "Hi Sarah, absolutely! I've switched your plan to annual billing. You'll save 20% compared to monthly. Your next invoice will be $2990 for the year instead of $299/month."
+  },
+  {
+    "email": "We'd like to build an internal dashboard using Hiver data. Do you have a REST API?",
+    "expected_reply": "Hi David, yes! We have a REST API with a rate limit of 100 requests per minute. I've generated API keys for your account and sent them securely. I've also attached our API documentation and a Postman collection."
+  },
+  {
+    "email": "What happens to our data if Hiver shuts down or gets acquired?",
+    "expected_reply": "Hi Sam, we have a data portability and continuity plan. If anything were to happen, you have 90 days to export all data. We also offer data escrow for Enterprise customers."
+  },
+  {
+    "email": "Can we book a demo with your team for our executive stakeholders?",
+    "expected_reply": "Hi Chloe, I'd love to arrange a demo for your stakeholders. I've scheduled a 30-minute executive demo for July 23 with our solutions architect. I've also prepared a tailored deck focusing on Education use cases."
+  },
+  {
+    "email": "The analytics dashboard shows 0 conversations for yesterday but we had activity.",
+    "expected_reply": "Hi Aisha, there was a data pipeline delay affecting yesterday's analytics. The data is now backfilled and your dashboard should show the correct numbers."
+  },
+  {
+    "email": "We're an agency and want to white-label the customer-facing email footers. Is this possible?",
+    "expected_reply": "Hi David, white-labeling is available on our Enterprise plan. I've upgraded your account for a 14-day trial. You can customize footers, logos, and the portal URL in Settings > Branding."
+  },
+  {
+    "email": "Can we increase the file attachment limit from 25MB?",
+    "expected_reply": "Hi Taylor, our current attachment limit is 25MB per email, which aligns with Gmail's limits. For larger files, I recommend using our integration with Google Drive or Dropbox."
+  },
+  {
+    "email": "Our webhook payloads are missing the 'customer_email' field. Was this removed?",
+    "expected_reply": "Hi Hannah, the 'customer_email' field was not removed — it was renamed to 'sender_email' in API v2. I've updated your webhook configuration to use the new field name."
+  },
+  {
+    "email": "My credit card was declined but I updated it. Will you retry the charge or do I need to pay manually?",
+    "expected_reply": "Hi Thomas, I've triggered a retry of the charge on your updated card. It should process within 24 hours. No manual payment is needed."
+  },
+  {
+    "email": "Email templates aren't loading in the compose window. The dropdown is empty.",
+    "expected_reply": "Hi Riley, I've identified a caching issue affecting your templates. I've cleared the cache and refreshed your template library. Please reload Gmail and try again."
+  },
+  {
+    "email": "Our company card expired. How do I update payment before the next billing on the 13th?",
+    "expected_reply": "Hi Liam, I've updated your payment method. Your next billing cycle on the 13th will charge the new card ending in ****1931. I've sent a $0 verification charge to confirm."
+  },
+  {
+    "email": "We have 8 new hires next week. Do you have training materials?",
+    "expected_reply": "Hi Raj, congratulations on the growth! I've scheduled a live training session for July 18 and sent you a recording of our last session. I've also created a dedicated onboarding inbox for your new hires to practice in."
+  },
+  {
+    "email": "We have 6 new hires next week. Do you have training materials?",
+    "expected_reply": "Hi Raj, congratulations on the growth! I've scheduled a live training session for July 20 and sent you a recording of our last session. I've also created a dedicated onboarding inbox for your new hires to practice in."
+  },
+  {
+    "email": "Our current admin Jordan is leaving. I need to transfer ownership to Isabella.",
+    "expected_reply": "Hi Taylor, I've initiated the ownership transfer from Jordan to Isabella. Isabella will receive an email to accept within 1 hour."
+  },
+  {
+    "email": "Our leadership needs custom analytics not in the default reports. Can we export raw data?",
+    "expected_reply": "Hi Henry, you can export raw data via our Analytics API or use the 'Custom Reports' beta I've enabled on your account. You can build SQL-like queries on conversation data."
+  },
+  {
+    "email": "I need to change my account email from andrewtorres@corelogic.net to michael_ramirez@horizontech.co.",
+    "expected_reply": "Hi Jordan, I've updated your account email to michael_ramirez@horizontech.co. All future notifications and login emails will go there."
+  },
+  {
+    "email": "Can we auto-assign emails based on current workload rather than round-robin?",
+    "expected_reply": "Hi Matthew, great idea! We have a 'Workload-based assignment' feature in beta. I've enabled it on your account. You can set max open tickets per agent in Settings > Automation."
+  },
+  {
+    "email": "Email templates aren't loading in the compose window. The dropdown is empty.",
+    "expected_reply": "Hi Thomas, I've identified a caching issue affecting your templates. I've cleared the cache and refreshed your template library. Please reload Gmail and try again."
+  },
+  {
+    "email": "We're migrating from Help Scout. Any best practices for setting up a shared inbox?",
+    "expected_reply": "Hi Noah, great choice! I've attached our E-commerce migration playbook. Key tips: 1) Set up tags first, 2) Use automation rules for routing, 3) Train on collision detection. I've also scheduled a migration consult for July 24."
+  },
+  {
+    "email": "Can we set up IP restrictions so agents can only log in from our office?",
+    "expected_reply": "Hi Olivia, I've enabled IP restrictions on your account. You can add allowed IP ranges in Settings > Security > IP Whitelist."
+  },
+  {
+    "email": "Do you have on-premise deployment options for highly regulated industries?",
+    "expected_reply": "Hi Priya, we offer on-premise deployment for Enterprise customers in regulated industries. I've sent you our on-premise deployment guide and scheduled a technical scoping call with our infrastructure team."
+  },
+  {
+    "email": "How does your pricing compare to Zendesk?",
+    "expected_reply": "Hi Matthew, I've attached a detailed feature and pricing comparison between Hiver and Zendesk. Our key differentiators are native Gmail integration, no per-seat pricing for observers, and built-in collision detection."
+  },
+  {
+    "email": "How do we export our data if we decide to leave Hiver?",
+    "expected_reply": "Hi Andrew, we believe in data portability. You can export all conversations, contacts, and analytics via our API or request a full data dump from our team. I've attached the data export guide and our data deletion policy."
+  },
+  {
+    "email": "Can I get a receipt for my last payment? I need it for expense reporting.",
+    "expected_reply": "Hi Maya, I've attached the receipt for your last payment. It includes all details needed for expense reporting."
+  },
+  {
+    "email": "Can we require approval before an agent can delete a conversation?",
+    "expected_reply": "Hi Benjamin, I've enabled deletion approval workflows on your account. Now, any agent attempting to delete a conversation will require admin approval."
+  },
+  {
+    "email": "Our company card expired. How do I update payment before the next billing on the 4th?",
+    "expected_reply": "Hi Zoe, I've updated your payment method. Your next billing cycle on the 4th will charge the new card ending in ****6907. I've sent a $0 verification charge to confirm."
+  },
+  {
+    "email": "Can we set different SLA rules based on customer tier? Enterprise vs Standard?",
+    "expected_reply": "Hi Hannah, absolutely. I've set up tiered SLAs: Enterprise (1 hour), Standard (4 hours), Basic (24 hours). These are applied based on the 'Customer Tier' custom field."
+  },
+  {
+    "email": "How do we export our data if we decide to leave Hiver?",
+    "expected_reply": "Hi Thomas, we believe in data portability. You can export all conversations, contacts, and analytics via our API or request a full data dump from our team. I've attached the data export guide and our data deletion policy."
+  },
+  {
+    "email": "Can I get a receipt for my last payment? I need it for expense reporting.",
+    "expected_reply": "Hi Zara, I've attached the receipt for your last payment. It includes all details needed for expense reporting."
+  },
+  {
+    "email": "Can we set up automatic user provisioning from our Google Workspace directory?",
+    "expected_reply": "Hi Grace, yes, we support SCIM provisioning from Google Workspace. I've enabled it on your account and sent you the SCIM endpoint URL and bearer token."
+  },
+  {
+    "email": "I need to change my account email from fatima_sanchez@prismanalytics.com to matthew_jackson@fasttrack.co.",
+    "expected_reply": "Hi Sam, I've updated your account email to matthew_jackson@fasttrack.co. All future notifications and login emails will go there."
+  },
+  {
+    "email": "My accountant needs all invoices from last year. Can you send them in one go?",
+    "expected_reply": "Hi Elena, I've compiled all your invoices from last year and sent them as a ZIP file. Each is in PDF format with full payment details."
+  },
+  {
+    "email": "Can we get a reference call with a similar company in Education?",
+    "expected_reply": "Hi Thomas, I'd be happy to arrange a reference call. I've reached out to Benjamin at InnovateLab and they agreed to speak with you. I'll introduce you both via email."
+  },
+  {
+    "email": "The API documentation example for creating a conversation is returning a 400 error.",
+    "expected_reply": "Hi Joseph, the API documentation was updated but the example wasn't. The correct payload structure requires 'sender' instead of 'from_address'. I've sent you the corrected example."
+  },
+  {
+    "email": "Hi, we need a W-9 form from Hiver for our vendor records. Can you provide this?",
+    "expected_reply": "Hi Daniel, I've attached our completed W-9 form for your vendor records. It includes our EIN and all required tax information."
+  },
+  {
+    "email": "I accidentally deleted a shared inbox. Can it be recovered?",
+    "expected_reply": "Hi Thomas, don't worry — I've restored your shared inbox from our backup. All conversations, rules, and tags are intact."
+  },
+  {
+    "email": "Can we create a feedback survey that's sent after a conversation is resolved?",
+    "expected_reply": "Hi Riley, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved."
+  },
+  {
+    "email": "Can we require approval before an agent can delete a conversation?",
+    "expected_reply": "Hi Daniel, I've enabled deletion approval workflows on your account. Now, any agent attempting to delete a conversation will require admin approval."
+  },
+  {
+    "email": "Our custom API calls are returning 429 errors. Did the rate limit change?",
+    "expected_reply": "Hi Noah, our rate limit is 500 requests per minute and hasn't changed. The 429 errors suggest you're hitting the limit. I've sent you a guide on implementing request batching."
+  },
+  {
+    "email": "Hi, we need a W-9 form from Hiver for our vendor records. Can you provide this?",
+    "expected_reply": "Hi Elena, I've attached our completed W-9 form for your vendor records. It includes our EIN and all required tax information."
+  },
+  {
+    "email": "My invoice shows 10 seats but we only have 3 users. Please correct this.",
+    "expected_reply": "Hi Layla, you're absolutely right. I've corrected your seat count to 3 and issued a revised invoice. The difference of $100 will be credited to your account."
+  },
+  {
+    "email": "How do I export a list of all active users and their last login date?",
+    "expected_reply": "Hi Isabella, I've generated a CSV export of all active users with their last login dates, roles, and assigned inboxes."
+  },
+  {
+    "email": "Can we set up round-robin assignment with weighting (e.g., senior agents get 60%)?",
+    "expected_reply": "Hi Isabella, weighted round-robin is available on our Enterprise plan. I've configured it so senior agents receive 60% of new assignments and junior agents receive 40%."
+  },
+  {
+    "email": "The 'Send Later' feature sends emails immediately instead of at the scheduled time.",
+    "expected_reply": "Hi Daniel, I've identified a timezone bug in the 'Send Later' feature. I've fixed it for your account and scheduled emails will now send at the correct local time."
+  },
+  {
+    "email": "We're a consulting firm and recommend tools to clients. Do you have a partner program?",
+    "expected_reply": "Hi James, yes! I've sent you our Partner Program deck. We offer 15% recurring commissions and co-marketing support. I've scheduled a call with our partnerships lead for July 25."
+  },
+  {
+    "email": "Two agents replied to the same customer email. How do we prevent this?",
+    "expected_reply": "Hi Dakota, this is exactly what our Collision Detection feature is for. I've enabled it on your account. Now, when one agent starts typing a reply, others will see a warning."
+  },
+  {
+    "email": "I was charged $49 but your pricing page says Growth is $399. Please explain.",
+    "expected_reply": "Hi Oliver, I apologize for the confusion. The $49 charge includes a one-time onboarding fee. I've issued a $350 credit to your account, and your next invoice will show the correct $399 amount."
+  },
+  {
+    "email": "Can we get a discount for paying annually upfront? We're currently on monthly Basic.",
+    "expected_reply": "Hi Zara, I've applied an annual discount of 20% to your plan. Your new annual rate is $2990, saving you $598 per year."
+  },
+  {
+    "email": "My invoice shows 15 seats but we only have 7 users. Please correct this.",
+    "expected_reply": "Hi Maya, you're absolutely right. I've corrected your seat count to 7 and issued a revised invoice. The difference of $20 will be credited to your account."
+  },
+  {
+    "email": "We use Pipedrive heavily. Do you have a native integration or do we need Zapier?",
+    "expected_reply": "Hi Andrew, we have a native Pipedrive integration! I've connected it to your account. Conversations will now sync as Ticket records. I've attached the setup guide."
+  },
+  {
+    "email": "We just signed up. What's the best way to get our team started?",
+    "expected_reply": "Hi Hannah, welcome aboard! I've sent you a personalized onboarding checklist and invited you to our 'Getting Started' webinar on July 21. I've also assigned Jordan as your dedicated success manager."
+  },
+  {
+    "email": "Is there a way to see who deleted a conversation and when?",
+    "expected_reply": "Hi Lily, yes, our audit log tracks all deletions. I've pulled the log for your account and sent it via email. It shows the user, timestamp, and conversation ID for every deletion in the past 90 days."
+  },
+  {
+    "email": "I was charged twice this month. My card ending in ****2403 shows two $249 charges. Please fix this.",
+    "expected_reply": "Hi Nathan, I sincerely apologize for the double charge. I've identified the duplicate transaction and initiated a refund of $249 to your card ending in ****2403. It will appear in 5-7 business days."
+  },
+  {
+    "email": "Bulk actions are extremely slow. Selecting 100+ conversations takes forever.",
+    "expected_reply": "Hi Andrew, I've identified a performance bottleneck in bulk actions for large selections. In the meantime, I recommend breaking bulk actions into batches of 50 conversations or less."
+  },
+  {
+    "email": "How does your pricing compare to Front?",
+    "expected_reply": "Hi Quinn, I've attached a detailed feature and pricing comparison between Hiver and Front. Our key differentiators are native Gmail integration, no per-seat pricing for observers, and built-in collision detection."
+  },
+  {
+    "email": "Our custom API calls are returning 429 errors. Did the rate limit change?",
+    "expected_reply": "Hi Ethan, our rate limit is 500 requests per minute and hasn't changed. The 429 errors suggest you're hitting the limit. I've sent you a guide on implementing request batching."
+  },
+  {
+    "email": "I was promised a refund of $149 but only received $48.64. Where is the rest?",
+    "expected_reply": "Hi Taylor, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $86.34 to your account. The full refund is now complete."
+  },
+  {
+    "email": "The password reset link expires immediately when I click it. I've tried 3 times.",
+    "expected_reply": "Hi Zoe, I've reset your password manually and sent a temporary password to your backup email. Please log in and change it immediately."
+  },
+  {
+    "email": "What happens to our data if Hiver shuts down or gets acquired?",
+    "expected_reply": "Hi Isabella, we have a data portability and continuity plan. If anything were to happen, you have 90 days to export all data. We also offer data escrow for Enterprise customers."
+  },
+  {
+    "email": "We need to retag about 242 conversations. Is there a bulk edit option?",
+    "expected_reply": "Hi Jordan, yes! I've enabled 'Bulk Actions' on your account. Go to Conversations > Select All > Bulk Edit Tags. You can also use our API for larger batches."
+  },
+  {
+    "email": "The collision detection banner doesn't show when someone else is viewing the email.",
+    "expected_reply": "Hi Dakota, I've enabled real-time collision detection on your account. The banner will now show within 2 seconds when another agent opens the same conversation."
+  },
+  {
+    "email": "I was charged sales tax this month but wasn't before. Why the change?",
+    "expected_reply": "Hi Sam, sales tax was added because your billing address was updated to a taxable region. I've attached the tax details and our tax exemption form."
+  },
+  {
+    "email": "Two agents replied to the same customer email. How do we prevent this?",
+    "expected_reply": "Hi James, this is exactly what our Collision Detection feature is for. I've enabled it on your account. Now, when one agent starts typing a reply, others will see a warning."
+  },
+  {
+    "email": "Do you have on-premise deployment options for highly regulated industries?",
+    "expected_reply": "Hi Zoe, we offer on-premise deployment for Enterprise customers in regulated industries. I've sent you our on-premise deployment guide and scheduled a technical scoping call with our infrastructure team."
+  },
+  {
+    "email": "Hiver sidebar is blank when I open Gmail. I've tried Chrome and Firefox.",
+    "expected_reply": "Hi David, this is a known issue with the latest Gmail update. I've applied a patch to your account. Please refresh Gmail (Ctrl+Shift+R) and the sidebar should load."
+  },
+  {
+    "email": "Hi, our billing contact left the company. How do I update the billing email address?",
+    "expected_reply": "Hi Layla, I've updated your billing email to christopher.white@zenithdigital.io. All future invoices and payment notifications will be sent there."
+  },
+  {
+    "email": "Can we have more than one admin? We have 75 team members.",
+    "expected_reply": "Hi Liam, yes! I've upgraded your plan to include 2 admin seats. You can assign admin roles in Settings > Team > Permissions."
+  },
+  {
+    "email": "I need to change the primary admin because the current one is on extended leave.",
+    "expected_reply": "Hi Taylor, I've transferred primary admin rights to you. The current admin on leave will be downgraded to a standard user but can be reinstated when they return."
+  },
+  {
+    "email": "Is there a way to automatically tag emails based on keywords in the subject?",
+    "expected_reply": "Hi Zara, yes, you can set up keyword-based auto-tagging. I've created rules for common keywords in your industry. Emails with matching subjects will be automatically tagged."
+  },
+  {
+    "email": "I accidentally deleted a shared inbox. Can it be recovered?",
+    "expected_reply": "Hi Thomas, don't worry — I've restored your shared inbox from our backup. All conversations, rules, and tags are intact."
+  },
+  {
+    "email": "Joseph left the company. I need to remove their access and reassign emails to Daniel.",
+    "expected_reply": "Hi Casey, I've deactivated Joseph's account and reassigned all open conversations to Daniel. Their historical data remains intact for reporting."
+  },
+  {
+    "email": "Can we book a demo with your team for our executive stakeholders?",
+    "expected_reply": "Hi Casey, I'd love to arrange a demo for your stakeholders. I've scheduled a 30-minute executive demo for July 29 with our solutions architect. I've also prepared a tailored deck focusing on Fintech use cases."
+  },
+  {
+    "email": "What's your average uptime and do you have a status page?",
+    "expected_reply": "Hi Wei, our average uptime is 99.99% over the past 12 months. Our status page is at status.hiverhq.com and you can subscribe to incident alerts. I've also attached our SLA guarantees."
+  },
+  {
+    "email": "Email templates aren't loading in the compose window. The dropdown is empty.",
+    "expected_reply": "Hi Wei, I've identified a caching issue affecting your templates. I've cleared the cache and refreshed your template library. Please reload Gmail and try again."
+  },
+  {
+    "email": "Our webhook endpoint is getting 504 timeouts from Hiver. Started 2 days ago.",
+    "expected_reply": "Hi Isabella, I've increased the webhook timeout to 30 seconds and added retry logic. Our logs show your endpoint was responding slowly. I've also sent you the failed payload IDs."
+  },
+  {
+    "email": "My accountant needs all invoices from last year. Can you send them in one go?",
+    "expected_reply": "Hi Matthew, I've compiled all your invoices from last year and sent them as a ZIP file. Each is in PDF format with full payment details."
+  },
+  {
+    "email": "Any plans for dark mode? Our team works night shifts and the bright UI is straining.",
+    "expected_reply": "Hi Ethan, dark mode is on our Q2 roadmap! I've added your team to the early access list. In the meantime, I've shared a Chrome extension workaround that several teams use."
+  },
+  {
+    "email": "We need to retag about 862 conversations. Is there a bulk edit option?",
+    "expected_reply": "Hi Isabella, yes! I've enabled 'Bulk Actions' on your account. Go to Conversations > Select All > Bulk Edit Tags. You can also use our API for larger batches."
+  },
+  {
+    "email": "The analytics dashboard shows 0 conversations for yesterday but we had activity.",
+    "expected_reply": "Hi Henry, there was a data pipeline delay affecting yesterday's analytics. The data is now backfilled and your dashboard should show the correct numbers."
+  },
+  {
+    "email": "The Chrome extension shows an outdated version number even after updating.",
+    "expected_reply": "Hi Aria, I've forced a cache refresh for your Chrome extension. Please uninstall it, clear your browser cache, and reinstall from the Chrome Web Store."
+  },
+  {
+    "email": "How do I disable email notifications for myself but keep them for the team?",
+    "expected_reply": "Hi Grace, I've disabled email notifications for your account while keeping them enabled for the team. You can still receive in-app notifications and @mentions."
+  },
+  {
+    "email": "Can we create custom roles beyond Admin and Agent? Like 'Supervisor' or 'Viewer'?",
+    "expected_reply": "Hi Aria, custom roles are available on our Enterprise plan. I've created 'Supervisor' and 'Viewer' roles for your account with the permissions you specified."
+  },
+  {
+    "email": "Can we get a discount for paying annually upfront? We're currently on monthly Premium.",
+    "expected_reply": "Hi Casey, I've applied an annual discount of 30% to your plan. Your new annual rate is $9990, saving you $1998 per year."
+  },
+  {
+    "email": "Our automation rule to assign emails from techflow.io to Oliver isn't working.",
+    "expected_reply": "Hi Sofia, I checked your automation rule and found the condition was set to 'contains' instead of 'from domain'. I've corrected it and tested with a sample email — it now assigns to Oliver correctly."
+  },
+  {
+    "email": "Our leadership needs custom analytics not in the default reports. Can we export raw data?",
+    "expected_reply": "Hi Sarah, you can export raw data via our Analytics API or use the 'Custom Reports' beta I've enabled on your account. You can build SQL-like queries on conversation data."
+  },
+  {
+    "email": "Hi, our billing contact left the company. How do I update the billing email address?",
+    "expected_reply": "Hi Benjamin, I've updated your billing email to liam.brown@apexsystems.com. All future invoices and payment notifications will be sent there."
+  },
+  {
+    "email": "I was charged sales tax this month but wasn't before. Why the change?",
+    "expected_reply": "Hi Raj, sales tax was added because your billing address was updated to a taxable region. I've attached the tax details and our tax exemption form."
+  },
+  {
+    "email": "My invoice shows 75 seats but we only have 5 users. Please correct this.",
+    "expected_reply": "Hi Wei, you're absolutely right. I've corrected your seat count to 5 and issued a revised invoice. The difference of $150 will be credited to your account."
+  },
+  {
+    "email": "CSV export fails at 73%. We have about 2102 conversations.",
+    "expected_reply": "Hi Dakota, the export is timing out due to the large volume. I've generated the CSV on our servers and sent you a secure download link (expires in 7 days)."
+  },
+  {
+    "email": "I need a VAT invoice for our records. Our VAT number is GB806157458.",
+    "expected_reply": "Hi Sofia, I've generated your VAT invoice with number GB806157458 and attached it here. It includes all required details for your tax records."
+  },
+  {
+    "email": "Is there a way to track agent response time by category or tag?",
+    "expected_reply": "Hi Lily, I've enabled category-level response time tracking on your account. You can now see average response times broken down by tag, category, and agent."
+  },
+  {
+    "email": "Do you offer discounts for non-profits or educational institutions?",
+    "expected_reply": "Hi Layla, yes, we offer 50% off for registered non-profits and educational institutions. I've sent you the discount application form. Once approved, the discount applies to all future invoices retroactively."
+  },
+  {
+    "email": "Can we enforce 2FA for all admin accounts?",
+    "expected_reply": "Hi Aria, I've enforced 2FA for all admin accounts on your workspace. Each admin will be prompted to set up 2FA on their next login."
+  },
+  {
+    "email": "Can we create custom fields for conversations like 'Priority' and 'Region'?",
+    "expected_reply": "Hi Mia, yes, custom fields are available on our Pro plan. I've created 'Priority' and 'Region' fields for your account. You can add them to any conversation and use them in automation rules and reports."
+  },
+  {
+    "email": "The Chrome extension shows an outdated version number even after updating.",
+    "expected_reply": "Hi Carlos, I've forced a cache refresh for your Chrome extension. Please uninstall it, clear your browser cache, and reinstall from the Chrome Web Store."
+  },
+  {
+    "email": "How do I export a list of all active users and their last login date?",
+    "expected_reply": "Hi Layla, I've generated a CSV export of all active users with their last login dates, roles, and assigned inboxes."
+  },
+  {
+    "email": "Can we create a customer portal where they can view their ticket status?",
+    "expected_reply": "Hi Sarah, customer portals are available on our Enterprise plan. I've created a portal for your account where customers can view ticket status, add comments, and upload files."
+  },
+  {
+    "email": "Can we set up IP restrictions so agents can only log in from our office?",
+    "expected_reply": "Hi Jordan, I've enabled IP restrictions on your account. You can add allowed IP ranges in Settings > Security > IP Whitelist."
+  },
+  {
+    "email": "Can we book a demo with your team for our executive stakeholders?",
+    "expected_reply": "Hi Sarah, I'd love to arrange a demo for your stakeholders. I've scheduled a 30-minute executive demo for July 30 with our solutions architect. I've also prepared a tailored deck focusing on SaaS use cases."
+  },
+  {
+    "email": "Can we get a discount for paying annually upfront? We're currently on monthly Enterprise.",
+    "expected_reply": "Hi Olivia, I've applied an annual discount of 10% to your plan. Your new annual rate is $5990, saving you $1198 per year."
+  },
+  {
+    "email": "How often do you release new features? Is there a public roadmap?",
+    "expected_reply": "Hi Quinn, we release new features every 2 weeks. I've sent you a link to our public roadmap where you can see what's in development, what's in beta, and what's planned."
+  },
+  {
+    "email": "Can we set up automatic user provisioning from our Google Workspace directory?",
+    "expected_reply": "Hi Thomas, yes, we support SCIM provisioning from Google Workspace. I've enabled it on your account and sent you the SCIM endpoint URL and bearer token."
+  },
+  {
+    "email": "The HubSpot integration keeps disconnecting every few days. We have to reconnect manually.",
+    "expected_reply": "Hi Michael, I've identified an OAuth token refresh issue causing the HubSpot disconnections. I've implemented a permanent fix and increased the token validity period."
+  },
+  {
+    "email": "Is there a way to automatically close resolved conversations after 60 days?",
+    "expected_reply": "Hi Riley, yes, you can set up an auto-close rule. I've created a rule that closes conversations marked 'Resolved' after 60 days of inactivity."
+  },
+  {
+    "email": "I need a VAT invoice for our records. Our VAT number is GB590470737.",
+    "expected_reply": "Hi Maya, I've generated your VAT invoice with number GB590470737 and attached it here. It includes all required details for your tax records."
+  },
+  {
+    "email": "How does your pricing compare to Zendesk?",
+    "expected_reply": "Hi Joseph, I've attached a detailed feature and pricing comparison between Hiver and Zendesk. Our key differentiators are native Gmail integration, no per-seat pricing for observers, and built-in collision detection."
+  },
+  {
+    "email": "Search for emails from February returns nothing even though I can see them in Gmail.",
+    "expected_reply": "Hi Nora, there was an indexing delay affecting searches before May 7. I've triggered a re-index for your account. Search should work fully within 2 hours."
+  },
+  {
+    "email": "Hi, I accidentally purchased the wrong plan. Can I get a refund?",
+    "expected_reply": "Hi Emma, no problem at all. I've processed a full refund for your Business plan. The refund of $29 will appear in 5-7 business days. Let me know if you need help finding the right plan."
+  },
+  {
+    "email": "Can we get a security questionnaire filled out for our vendor review?",
+    "expected_reply": "Hi Matthew, I've completed your security questionnaire and attached it here. It covers our infrastructure, data handling, access controls, and incident response."
+  },
+  {
+    "email": "Hi, we need a W-9 form from Hiver for our vendor records. Can you provide this?",
+    "expected_reply": "Hi Olivia, I've attached our completed W-9 form for your vendor records. It includes our EIN and all required tax information."
+  },
+  {
+    "email": "I need to change the primary admin because the current one is on extended leave.",
+    "expected_reply": "Hi Quinn, I've transferred primary admin rights to you. The current admin on leave will be downgraded to a standard user but can be reinstated when they return."
+  },
+  {
+    "email": "Email signatures aren't applying to replies sent through Hiver.",
+    "expected_reply": "Hi Maya, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies."
+  },
+  {
+    "email": "Can we create email templates with dynamic variables like {customer_name}?",
+    "expected_reply": "Hi Liam, yes, dynamic variables are supported in templates. You can use {customer_name}, {ticket_id}, {agent_name}, and more. I've created a sample template with variables for your account."
+  },
+  {
+    "email": "I need to change my account email from ethan_allen@prismanalytics.com to taylor_smith@prismanalytics.com.",
+    "expected_reply": "Hi Lucas, I've updated your account email to taylor_smith@prismanalytics.com. All future notifications and login emails will go there."
+  },
+  {
+    "email": "Can we create a feedback survey that's sent after a conversation is resolved?",
+    "expected_reply": "Hi Elena, yes! I've created a post-resolution feedback survey for your account. It will be sent automatically 24 hours after a conversation is marked resolved."
+  },
+  {
+    "email": "Why did my price increase this month? I didn't change anything.",
+    "expected_reply": "Hi Lily, the price increase is due to our annual pricing adjustment communicated on March 7. Your plan remains the same, but the base price increased by 25%."
+  },
+  {
+    "email": "Do you have a community forum or Slack group for users?",
+    "expected_reply": "Hi Chloe, yes! We have an active community on Slack and a user forum. I've sent you invites to both. The Slack community has 2290 members and is great for peer support."
+  },
+  {
+    "email": "Our webhook endpoint is getting 504 timeouts from Hiver. Started 30 days ago.",
+    "expected_reply": "Hi Lily, I've increased the webhook timeout to 30 seconds and added retry logic. Our logs show your endpoint was responding slowly. I've also sent you the failed payload IDs."
+  },
+  {
+    "email": "How do I disable email notifications for myself but keep them for the team?",
+    "expected_reply": "Hi Wei, I've disabled email notifications for your account while keeping them enabled for the team. You can still receive in-app notifications and @mentions."
+  },
+  {
+    "email": "Can we pay via wire transfer instead of credit card for our Pro plan?",
+    "expected_reply": "Hi Riley, yes, we accept wire transfers for annual plans. I've sent our bank details and a wire transfer invoice to your billing email."
+  },
+  {
+    "email": "Can I downgrade from Ultimate to Basic without losing my data?",
+    "expected_reply": "Hi Chloe, yes, you can downgrade to Basic without losing any data. I've processed the downgrade effective immediately. Your next invoice will reflect the Basic plan rate of $29."
+  },
+  {
+    "email": "Hiver sidebar is blank when I open Gmail. I've tried Chrome and Firefox.",
+    "expected_reply": "Hi Riley, this is a known issue with the latest Gmail update. I've applied a patch to your account. Please refresh Gmail (Ctrl+Shift+R) and the sidebar should load."
+  },
+  {
+    "email": "Love the product but wanted to share feedback: collision detection needs improvement.",
+    "expected_reply": "Hi Avery, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-8961) and shared it with our PM. We're actually exploring something similar in Q1."
+  },
+  {
+    "email": "I cancelled my subscription but was still charged this month. Please reverse this charge.",
+    "expected_reply": "Hi Maya, I apologize for that. I've identified the billing error and issued a full refund of $99. It will appear in 5-7 business days."
+  },
+  {
+    "email": "I need a VAT invoice for our records. Our VAT number is GB348545713.",
+    "expected_reply": "Hi Aria, I've generated your VAT invoice with number GB348545713 and attached it here. It includes all required details for your tax records."
+  },
+  {
+    "email": "Is there a way to automatically tag emails based on keywords in the subject?",
+    "expected_reply": "Hi Henry, yes, you can set up keyword-based auto-tagging. I've created rules for common keywords in your industry. Emails with matching subjects will be automatically tagged."
+  },
+  {
+    "email": "Our custom API calls are returning 429 errors. Did the rate limit change?",
+    "expected_reply": "Hi Quinn, our rate limit is 100 requests per minute and hasn't changed. The 429 errors suggest you're hitting the limit. I've sent you a guide on implementing request batching."
+  },
+  {
+    "email": "We rebranded from MeteorApps to GalaxyWorks. Can you update this across our account?",
+    "expected_reply": "Hi David, congratulations on the rebrand! I've updated your company name to GalaxyWorks across your account, billing, and invoices. The change will reflect on your next invoice."
+  },
+  {
+    "email": "Can we integrate Hiver with our internal knowledge base?",
+    "expected_reply": "Hi Grace, we support knowledge base integrations via API and webhook. I've sent you our integration guide and a sample webhook configuration."
+  },
+  {
+    "email": "Hi, I accidentally purchased the wrong plan. Can I get a refund?",
+    "expected_reply": "Hi Zara, no problem at all. I've processed a full refund for your Enterprise plan. The refund of $29 will appear in 5-7 business days. Let me know if you need help finding the right plan."
+  },
+  {
+    "email": "Do you support multiple languages in the UI and email templates?",
+    "expected_reply": "Hi Jordan, we support 15 languages in the UI and email templates. I've enabled multilingual support on your account."
+  },
+  {
+    "email": "Our leadership needs custom analytics not in the default reports. Can we export raw data?",
+    "expected_reply": "Hi Maya, you can export raw data via our Analytics API or use the 'Custom Reports' beta I've enabled on your account. You can build SQL-like queries on conversation data."
+  },
+  {
+    "email": "Is there an AI feature that suggests replies to common questions?",
+    "expected_reply": "Hi Quinn, yes! Our AI Reply Suggestions feature is in beta. I've enabled it on your account. It suggests replies based on your team's past responses and can be trained on your specific tone."
+  },
+  {
+    "email": "We have 12 new hires next week. Do you have training materials?",
+    "expected_reply": "Hi Mia, congratulations on the growth! I've scheduled a live training session for July 17 and sent you a recording of our last session. I've also created a dedicated onboarding inbox for your new hires to practice in."
+  },
+  {
+    "email": "Hiver sidebar is blank when I open Gmail. I've tried Chrome and Firefox.",
+    "expected_reply": "Hi Sarah, this is a known issue with the latest Gmail update. I've applied a patch to your account. Please refresh Gmail (Ctrl+Shift+R) and the sidebar should load."
+  },
+  {
+    "email": "Hi, we want to add 30 more seats to our Basic plan. How does billing work for mid-cycle additions?",
+    "expected_reply": "Hi Riley, I've added 30 seats to your plan. You'll be charged a pro-rated amount of $232.28 for the remainder of this billing cycle, then $1009/month going forward."
+  },
+  {
+    "email": "What happens to our data if Hiver shuts down or gets acquired?",
+    "expected_reply": "Hi Ethan, we have a data portability and continuity plan. If anything were to happen, you have 90 days to export all data. We also offer data escrow for Enterprise customers."
+  },
+  {
+    "email": "Can we build a chatbot that uses Hiver data to answer customer questions?",
+    "expected_reply": "Hi Noah, yes! You can build a chatbot using our API to fetch conversation data and our webhook to receive real-time updates. I've sent you a chatbot starter kit."
+  },
+  {
+    "email": "Is there a way to see which agents are online and what they're working on in real-time?",
+    "expected_reply": "Hi Olivia, I've enabled the real-time activity dashboard for your account. You can see which agents are online, what conversations they're viewing, and their current status."
+  },
+  {
+    "email": "How do I export a list of all active users and their last login date?",
+    "expected_reply": "Hi Thomas, I've generated a CSV export of all active users with their last login dates, roles, and assigned inboxes."
+  },
+  {
+    "email": "Can we build custom automation triggers based on email sentiment?",
+    "expected_reply": "Hi Grace, sentiment-based automation is in beta. I've enabled it on your account. You can now create triggers based on positive, negative, or neutral sentiment scores."
+  },
+  {
+    "email": "Can we try Hiver with a subset of our team before rolling out company-wide?",
+    "expected_reply": "Hi Michael, absolutely! I recommend starting with a pilot of 5-10 users. I've set up a pilot workspace for you with a dedicated onboarding specialist. We'll measure adoption and satisfaction after 2 weeks before expanding."
+  },
+  {
+    "email": "We acquired another company. Can we merge their Hiver account into ours?",
+    "expected_reply": "Hi Grace, I've initiated the account merge process. I'll need admin approval from both accounts. The merge typically takes 2-3 business days and all data will be preserved."
+  },
+  {
+    "email": "Can we set up automatic user provisioning from our Google Workspace directory?",
+    "expected_reply": "Hi Sofia, yes, we support SCIM provisioning from Google Workspace. I've enabled it on your account and sent you the SCIM endpoint URL and bearer token."
+  },
+  {
+    "email": "How do I disable email notifications for myself but keep them for the team?",
+    "expected_reply": "Hi Lucas, I've disabled email notifications for your account while keeping them enabled for the team. You can still receive in-app notifications and @mentions."
+  },
+  {
+    "email": "How often do you release new features? Is there a public roadmap?",
+    "expected_reply": "Hi Priya, we release new features every 2 weeks. I've sent you a link to our public roadmap where you can see what's in development, what's in beta, and what's planned."
+  },
+  {
+    "email": "Where is my refund? I requested it 10 days ago and still haven't received it. Order HI-OKC1MSY4.",
+    "expected_reply": "Hi Olivia, I completely understand your frustration. I've checked order HI-OKC1MSY4 and confirmed the refund was processed. It typically takes 5-7 business days, but in some cases up to 10. If it doesn't appear soon, please reply and I'll escalate immediately."
+  },
+  {
+    "email": "Isabella left the company. I need to remove their access and reassign emails to Quinn.",
+    "expected_reply": "Hi James, I've deactivated Isabella's account and reassigned all open conversations to Quinn. Their historical data remains intact for reporting."
+  },
+  {
+    "email": "Can we get a detailed breakdown of what each seat costs? Our finance team needs this.",
+    "expected_reply": "Hi Avery, I've attached a detailed cost breakdown per seat for your Basic plan. Each seat costs $3.32/month."
+  },
+  {
+    "email": "Can we set up automatic user provisioning from our Google Workspace directory?",
+    "expected_reply": "Hi Matthew, yes, we support SCIM provisioning from Google Workspace. I've enabled it on your account and sent you the SCIM endpoint URL and bearer token."
+  },
+  {
+    "email": "Can I get a pro-rated refund if I cancel my subscription mid-cycle?",
+    "expected_reply": "Hi Sofia, yes, we offer pro-rated refunds. I've calculated your refund as $23.9 for the remaining days. It will be processed to your original payment method within 5-7 business days."
+  },
+  {
+    "email": "The mobile push notifications are delayed by 10-15 minutes. Can this be fixed?",
+    "expected_reply": "Hi Alex, I've identified a delay in our push notification queue. I've optimized the pipeline and your notifications should now arrive within 30 seconds."
+  },
+  {
+    "email": "Hi, I was charged for 150 seats but we downgraded to 33 last month. Refund the difference?",
+    "expected_reply": "Hi Zara, I see the issue — our system didn't process your seat downgrade. I've corrected it to 33 seats and issued a credit of $30 for the overcharge."
+  },
+  {
+    "email": "I cancelled my subscription but was still charged this month. Please reverse this charge.",
+    "expected_reply": "Hi Michael, I apologize for that. I've identified the billing error and issued a full refund of $599. It will appear in 5-7 business days."
+  },
+  {
+    "email": "We need to comply with GDPR. Can you help us export and delete a specific user's data?",
+    "expected_reply": "Hi Elena, I've prepared a GDPR data export for the specified user and sent it securely. For deletion, I need written confirmation from your DPO."
+  },
+  {
+    "email": "Emails from prismanalytics.com are going to spam in Hiver but not in Gmail.",
+    "expected_reply": "Hi Oliver, I've adjusted your spam filter settings for prismanalytics.com and whitelisted the sender. Future emails from this domain should land in your inbox."
+  },
+  {
+    "email": "Can we try Hiver with a subset of our team before rolling out company-wide?",
+    "expected_reply": "Hi Matthew, absolutely! I recommend starting with a pilot of 5-10 users. I've set up a pilot workspace for you with a dedicated onboarding specialist. We'll measure adoption and satisfaction after 2 weeks before expanding."
+  },
+  {
+    "email": "Can we set different SLA rules based on customer tier? Enterprise vs Standard?",
+    "expected_reply": "Hi James, absolutely. I've set up tiered SLAs: Enterprise (1 hour), Standard (4 hours), Basic (24 hours). These are applied based on the 'Customer Tier' custom field."
+  },
+  {
+    "email": "How do we export our data if we decide to leave Hiver?",
+    "expected_reply": "Hi Lucas, we believe in data portability. You can export all conversations, contacts, and analytics via our API or request a full data dump from our team. I've attached the data export guide and our data deletion policy."
+  },
+  {
+    "email": "The API documentation example for creating a conversation is returning a 400 error.",
+    "expected_reply": "Hi Chloe, the API documentation was updated but the example wasn't. The correct payload structure requires 'sender' instead of 'from_address'. I've sent you the corrected example."
+  },
+  {
+    "email": "Can we get a detailed breakdown of what each seat costs? Our finance team needs this.",
+    "expected_reply": "Hi Dakota, I've attached a detailed cost breakdown per seat for your Starter plan. Each seat costs $9.8/month."
+  },
+  {
+    "email": "Do you have a community forum or Slack group for users?",
+    "expected_reply": "Hi Carlos, yes! We have an active community on Slack and a user forum. I've sent you invites to both. The Slack community has 4237 members and is great for peer support."
+  },
+  {
+    "email": "Hi, I was charged for 5 seats but we downgraded to 3 last month. Refund the difference?",
+    "expected_reply": "Hi Raj, I see the issue — our system didn't process your seat downgrade. I've corrected it to 3 seats and issued a credit of $200 for the overcharge."
+  },
+  {
+    "email": "Do you support webhooks for real-time event notifications?",
+    "expected_reply": "Hi Zoe, yes, we support webhooks for events like new conversation, assignment change, and resolution. I've generated a webhook secret for your account and sent you the endpoint configuration."
+  },
+  {
+    "email": "Do you support multiple languages in the UI and email templates?",
+    "expected_reply": "Hi Alex, we support 15 languages in the UI and email templates. I've enabled multilingual support on your account."
+  },
+  {
+    "email": "Is there a way to see who deleted a conversation and when?",
+    "expected_reply": "Hi Quinn, yes, our audit log tracks all deletions. I've pulled the log for your account and sent it via email. It shows the user, timestamp, and conversation ID for every deletion in the past 90 days."
+  },
+  {
+    "email": "We're migrating from Zendesk. Any best practices for setting up a shared inbox?",
+    "expected_reply": "Hi David, great choice! I've attached our SaaS migration playbook. Key tips: 1) Set up tags first, 2) Use automation rules for routing, 3) Train on collision detection. I've also scheduled a migration consult for July 21."
+  },
+  {
+    "email": "We need to comply with GDPR. Can you help us export and delete a specific user's data?",
+    "expected_reply": "Hi Emma, I've prepared a GDPR data export for the specified user and sent it securely. For deletion, I need written confirmation from your DPO."
+  },
+  {
+    "email": "We'd like to build an internal dashboard using Hiver data. Do you have a REST API?",
+    "expected_reply": "Hi Lucas, yes! We have a REST API with a rate limit of 200 requests per minute. I've generated API keys for your account and sent them securely. I've also attached our API documentation and a Postman collection."
+  },
+  {
+    "email": "Do you offer professional services for implementation and migration?",
+    "expected_reply": "Hi Hannah, yes, we offer professional services including implementation, migration, and training. I've sent you our services catalog and pricing. I've also scheduled a scoping call for July 20."
+  },
+  {
+    "email": "We stopped getting Slack notifications for new emails in #alerts since last week.",
+    "expected_reply": "Hi Avery, I've reauthorized the Slack connection and pushed a fix for the notification pipeline. You should start seeing notifications in #alerts within 10 minutes."
+  },
+  {
+    "email": "Can we enforce 2FA for all admin accounts?",
+    "expected_reply": "Hi Aisha, I've enforced 2FA for all admin accounts on your workspace. Each admin will be prompted to set up 2FA on their next login."
+  },
+  {
+    "email": "Is there a way to automatically close resolved conversations after 5 days?",
+    "expected_reply": "Hi Hannah, yes, you can set up an auto-close rule. I've created a rule that closes conversations marked 'Resolved' after 5 days of inactivity."
+  },
+  {
+    "email": "Can we set different SLA rules based on customer tier? Enterprise vs Standard?",
+    "expected_reply": "Hi Taylor, absolutely. I've set up tiered SLAs: Enterprise (1 hour), Standard (4 hours), Basic (24 hours). These are applied based on the 'Customer Tier' custom field."
+  },
+  {
+    "email": "We just signed up. What's the best way to get our team started?",
+    "expected_reply": "Hi Fatima, welcome aboard! I've sent you a personalized onboarding checklist and invited you to our 'Getting Started' webinar on July 27. I've also assigned Hannah as your dedicated success manager."
+  },
+  {
+    "email": "Hi, we want to add 75 more seats to our Premium plan. How does billing work for mid-cycle additions?",
+    "expected_reply": "Hi Morgan, I've added 75 seats to your plan. You'll be charged a pro-rated amount of $155.16 for the remainder of this billing cycle, then $409/month going forward."
+  },
+  {
+    "email": "Why did my price increase this month? I didn't change anything.",
+    "expected_reply": "Hi Fatima, the price increase is due to our annual pricing adjustment communicated on March 8. Your plan remains the same, but the base price increased by 30%."
+  },
+  {
+    "email": "Can I get a receipt for my last payment? I need it for expense reporting.",
+    "expected_reply": "Hi Lily, I've attached the receipt for your last payment. It includes all details needed for expense reporting."
+  },
+  {
+    "email": "Hi, we want to add 100 more seats to our Ultimate plan. How does billing work for mid-cycle additions?",
+    "expected_reply": "Hi Carlos, I've added 100 seats to your plan. You'll be charged a pro-rated amount of $63.73 for the remainder of this billing cycle, then $209/month going forward."
+  },
+  {
+    "email": "I was charged twice this month. My card ending in ****5244 shows two $79 charges. Please fix this.",
+    "expected_reply": "Hi Benjamin, I sincerely apologize for the double charge. I've identified the duplicate transaction and initiated a refund of $79 to your card ending in ****5244. It will appear in 5-7 business days."
+  },
+  {
+    "email": "The collision detection banner doesn't show when someone else is viewing the email.",
+    "expected_reply": "Hi Daniel, I've enabled real-time collision detection on your account. The banner will now show within 2 seconds when another agent opens the same conversation."
+  },
+  {
+    "email": "We're reorganizing and want to pause our account for 7 days without losing data.",
+    "expected_reply": "Hi Nathan, I've paused your billing for 7 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel."
+  },
+  {
+    "email": "Can we build custom automation triggers based on email sentiment?",
+    "expected_reply": "Hi Elena, sentiment-based automation is in beta. I've enabled it on your account. You can now create triggers based on positive, negative, or neutral sentiment scores."
+  },
+  {
+    "email": "We're an agency and want to white-label the customer-facing email footers. Is this possible?",
+    "expected_reply": "Hi Maya, white-labeling is available on our Enterprise plan. I've upgraded your account for a 14-day trial. You can customize footers, logos, and the portal URL in Settings > Branding."
+  },
+  {
+    "email": "The analytics dashboard shows 0 conversations for yesterday but we had activity.",
+    "expected_reply": "Hi Layla, there was a data pipeline delay affecting yesterday's analytics. The data is now backfilled and your dashboard should show the correct numbers."
+  },
+  {
+    "email": "Bulk actions are extremely slow. Selecting 100+ conversations takes forever.",
+    "expected_reply": "Hi Sam, I've identified a performance bottleneck in bulk actions for large selections. In the meantime, I recommend breaking bulk actions into batches of 50 conversations or less."
+  },
+  {
+    "email": "Our security team needs to know: Are you SOC 2 compliant? Where is data stored?",
+    "expected_reply": "Hi Avery, yes, we are SOC 2 Type II certified. Data is stored in APAC (AWS). I've attached our security whitepaper, pen-test summary, and DPA."
+  },
+  {
+    "email": "Can we restrict certain agents from seeing billing-related emails?",
+    "expected_reply": "Hi Raj, yes, you can set conversation-level permissions. I've created a 'Billing' tag and restricted it to admin and billing team members only."
+  },
+  {
+    "email": "Can we pay via wire transfer instead of credit card for our Business plan?",
+    "expected_reply": "Hi Benjamin, yes, we accept wire transfers for annual plans. I've sent our bank details and a wire transfer invoice to your billing email."
+  },
+  {
+    "email": "How does your pricing compare to Zendesk?",
+    "expected_reply": "Hi Aisha, I've attached a detailed feature and pricing comparison between Hiver and Zendesk. Our key differentiators are native Gmail integration, no per-seat pricing for observers, and built-in collision detection."
+  },
+  {
+    "email": "Is there a way to automatically close resolved conversations after 60 days?",
+    "expected_reply": "Hi Zara, yes, you can set up an auto-close rule. I've created a rule that closes conversations marked 'Resolved' after 60 days of inactivity."
+  },
+  {
+    "email": "Do you support webhooks for real-time event notifications?",
+    "expected_reply": "Hi Oliver, yes, we support webhooks for events like new conversation, assignment change, and resolution. I've generated a webhook secret for your account and sent you the endpoint configuration."
+  },
+  {
+    "email": "Do you have upcoming webinars on advanced features?",
+    "expected_reply": "Hi Daniel, our next 'Hiver Advanced' webinar is on July 25. I've reserved 17 seats for your team. I've also sent you recordings of past sessions on automation and analytics."
+  },
+  {
+    "email": "Can we schedule recurring reports to be emailed to leadership weekly?",
+    "expected_reply": "Hi Quinn, I've set up a weekly recurring report that will be emailed to your leadership team every Monday. It includes response times, resolution rates, and conversation volume."
+  },
+  {
+    "email": "Do you have a mobile app for Android? We have field agents.",
+    "expected_reply": "Hi Nathan, yes, our Android app is available on the Google Play Store. I've sent the download link to your team. It supports conversation viewing, quick replies, and push notifications."
+  },
+  {
+    "email": "My credit card was declined but I updated it. Will you retry the charge or do I need to pay manually?",
+    "expected_reply": "Hi Sarah, I've triggered a retry of the charge on your updated card. It should process within 24 hours. No manual payment is needed."
+  },
+  {
+    "email": "Our leadership needs custom analytics not in the default reports. Can we export raw data?",
+    "expected_reply": "Hi Noah, you can export raw data via our Analytics API or use the 'Custom Reports' beta I've enabled on your account. You can build SQL-like queries on conversation data."
+  },
+  {
+    "email": "Do you support webhooks for real-time event notifications?",
+    "expected_reply": "Hi Lily, yes, we support webhooks for events like new conversation, assignment change, and resolution. I've generated a webhook secret for your account and sent you the endpoint configuration."
+  },
+  {
+    "email": "Emails from nexusgroup.io are going to spam in Hiver but not in Gmail.",
+    "expected_reply": "Hi Lily, I've adjusted your spam filter settings for nexusgroup.io and whitelisted the sender. Future emails from this domain should land in your inbox."
+  },
+  {
+    "email": "Can we set up IP restrictions so agents can only log in from our office?",
+    "expected_reply": "Hi Zoe, I've enabled IP restrictions on your account. You can add allowed IP ranges in Settings > Security > IP Whitelist."
+  },
+  {
+    "email": "How do I add a new team member starting next week?",
+    "expected_reply": "Hi Dakota, welcome aboard! I've sent an invite to the new member's email with instructions. Once they accept, you can assign them to your shared inbox from Settings > Team."
+  },
+  {
+    "email": "CSV export fails at 30%. We have about 2108 conversations.",
+    "expected_reply": "Hi Joseph, the export is timing out due to the large volume. I've generated the CSV on our servers and sent you a secure download link (expires in 7 days)."
+  },
+  {
+    "email": "We're evaluating Hiver for our Fintech company. Do you have case studies?",
+    "expected_reply": "Hi Avery, I've attached case studies from NeonWave and TechFlow in Fintech. Both had similar team sizes and use cases. I'd also love to connect you with Lucas for a reference call."
+  },
+  {
+    "email": "My invoice shows 200 seats but we only have 72 users. Please correct this.",
+    "expected_reply": "Hi Lily, you're absolutely right. I've corrected your seat count to 72 and issued a revised invoice. The difference of $100 will be credited to your account."
+  },
+  {
+    "email": "Search for emails from May returns nothing even though I can see them in Gmail.",
+    "expected_reply": "Hi Oliver, there was an indexing delay affecting searches before May 14. I've triggered a re-index for your account. Search should work fully within 2 hours."
+  },
+  {
+    "email": "James left the company. I need to remove their access and reassign emails to Elena.",
+    "expected_reply": "Hi Alex, I've deactivated James's account and reassigned all open conversations to Elena. Their historical data remains intact for reporting."
+  },
+  {
+    "email": "Do you have a Chrome extension for Gmail or only the sidebar?",
+    "expected_reply": "Hi Benjamin, we have both the Gmail sidebar integration and a standalone Chrome extension. The extension provides quick access to Hiver without opening Gmail."
+  },
+  {
+    "email": "We're an agency and want to white-label the customer-facing email footers. Is this possible?",
+    "expected_reply": "Hi Liam, white-labeling is available on our Enterprise plan. I've upgraded your account for a 14-day trial. You can customize footers, logos, and the portal URL in Settings > Branding."
+  },
+  {
+    "email": "I was promised a refund of $799 but only received $436.6. Where is the rest?",
+    "expected_reply": "Hi Nathan, I apologize for the partial refund. I've identified the discrepancy and issued the remaining $381.09 to your account. The full refund is now complete."
+  },
+  {
+    "email": "We'd like to set up SSO via Google Workspace. Do you support SAML 2.0?",
+    "expected_reply": "Hi Liam, yes, we support SAML 2.0 via Google Workspace. I've started the setup and need your IdP metadata URL. I've attached our SSO configuration guide."
+  },
+  {
+    "email": "We'd like to build an internal dashboard using Hiver data. Do you have a REST API?",
+    "expected_reply": "Hi Daniel, yes! We have a REST API with a rate limit of 200 requests per minute. I've generated API keys for your account and sent them securely. I've also attached our API documentation and a Postman collection."
+  },
+  {
+    "email": "The 'Send Later' feature sends emails immediately instead of at the scheduled time.",
+    "expected_reply": "Hi Liam, I've identified a timezone bug in the 'Send Later' feature. I've fixed it for your account and scheduled emails will now send at the correct local time."
+  },
+  {
+    "email": "Do you have a mobile app for Android? We have field agents.",
+    "expected_reply": "Hi Aria, yes, our Android app is available on the Google Play Store. I've sent the download link to your team. It supports conversation viewing, quick replies, and push notifications."
+  },
+  {
+    "email": "Can we enforce 2FA for all admin accounts?",
+    "expected_reply": "Hi Casey, I've enforced 2FA for all admin accounts on your workspace. Each admin will be prompted to set up 2FA on their next login."
+  },
+  {
+    "email": "Hi, we want to add 100 more seats to our Ultimate plan. How does billing work for mid-cycle additions?",
+    "expected_reply": "Hi Fatima, I've added 100 seats to your plan. You'll be charged a pro-rated amount of $37.51 for the remainder of this billing cycle, then $89/month going forward."
+  },
+  {
+    "email": "Our company card expired. How do I update payment before the next billing on the 15th?",
+    "expected_reply": "Hi Matthew, I've updated your payment method. Your next billing cycle on the 15th will charge the new card ending in ****8133. I've sent a $0 verification charge to confirm."
+  },
+  {
+    "email": "Is there a way to suggest improvements to the product directly to your PM team?",
+    "expected_reply": "Hi Daniel, yes! I've added you to our PM feedback program. You'll receive monthly surveys and early access to beta features. Your feedback goes directly to our product team."
+  },
+  {
+    "email": "What's your average uptime and do you have a status page?",
+    "expected_reply": "Hi Christopher, our average uptime is 99.99% over the past 12 months. Our status page is at status.hiverhq.com and you can subscribe to incident alerts. I've also attached our SLA guarantees."
+  },
+  {
+    "email": "The Chrome extension shows an outdated version number even after updating.",
+    "expected_reply": "Hi Benjamin, I've forced a cache refresh for your Chrome extension. Please uninstall it, clear your browser cache, and reinstall from the Chrome Web Store."
+  },
+  {
+    "email": "Can we get a dedicated account manager for our Enterprise plan?",
+    "expected_reply": "Hi Raj, absolutely. I've assigned Wei as your dedicated account manager. They'll be your primary point of contact for strategic planning, quarterly reviews, and escalation."
+  },
+  {
+    "email": "I was charged $799 but your pricing page says Growth is $599. Please explain.",
+    "expected_reply": "Hi Zara, I apologize for the confusion. The $799 charge includes a one-time onboarding fee. I've issued a $200 credit to your account, and your next invoice will show the correct $599 amount."
+  },
+  {
+    "email": "Hi, we need a W-9 form from Hiver for our vendor records. Can you provide this?",
+    "expected_reply": "Hi Andrew, I've attached our completed W-9 form for your vendor records. It includes our EIN and all required tax information."
+  },
+  {
+    "email": "Love the product but wanted to share feedback: we need more automation triggers.",
+    "expected_reply": "Hi Nora, thank you for the thoughtful feedback! I've logged this in our product tracker (ID: FEED-5320) and shared it with our PM. We're actually exploring something similar in Q4."
+  },
+  {
+    "email": "Can we have more than one admin? We have 25 team members.",
+    "expected_reply": "Hi Raj, yes! I've upgraded your plan to include 5 admin seats. You can assign admin roles in Settings > Team > Permissions."
+  },
+  {
+    "email": "Bulk actions are extremely slow. Selecting 100+ conversations takes forever.",
+    "expected_reply": "Hi Nora, I've identified a performance bottleneck in bulk actions for large selections. In the meantime, I recommend breaking bulk actions into batches of 50 conversations or less."
+  },
+  {
+    "email": "Hi, our billing contact left the company. How do I update the billing email address?",
+    "expected_reply": "Hi Lucas, I've updated your billing email to zoe.clark@acme.com. All future invoices and payment notifications will be sent there."
+  },
+  {
+    "email": "We just signed up. What's the best way to get our team started?",
+    "expected_reply": "Hi Morgan, welcome aboard! I've sent you a personalized onboarding checklist and invited you to our 'Getting Started' webinar on July 16. I've also assigned Zara as your dedicated success manager."
+  },
+  {
+    "email": "Can we get a security questionnaire filled out for our vendor review?",
+    "expected_reply": "Hi Elena, I've completed your security questionnaire and attached it here. It covers our infrastructure, data handling, access controls, and incident response."
+  },
+  {
+    "email": "I see a charge from Hiver I don't recognize. Can you tell me what it's for?",
+    "expected_reply": "Hi Daniel, I've looked up the charge and it corresponds to your Premium plan renewal. I've attached the invoice for your reference."
+  },
+  {
+    "email": "We need to comply with GDPR. Can you help us export and delete a specific user's data?",
+    "expected_reply": "Hi Aria, I've prepared a GDPR data export for the specified user and sent it securely. For deletion, I need written confirmation from your DPO."
+  },
+  {
+    "email": "Do you have a Chrome extension for Gmail or only the sidebar?",
+    "expected_reply": "Hi Dakota, we have both the Gmail sidebar integration and a standalone Chrome extension. The extension provides quick access to Hiver without opening Gmail."
+  },
+  {
+    "email": "Email signatures aren't applying to replies sent through Hiver.",
+    "expected_reply": "Hi Sarah, I've checked your signature settings and found they were configured for the wrong inbox. I've corrected this and your signatures will now apply to all replies."
+  },
+  {
+    "email": "I was charged twice this month. My card ending in ****9516 shows two $799 charges. Please fix this.",
+    "expected_reply": "Hi Casey, I sincerely apologize for the double charge. I've identified the duplicate transaction and initiated a refund of $799 to your card ending in ****9516. It will appear in 5-7 business days."
+  },
+  {
+    "email": "Do you have a mobile app for Android? We have field agents.",
+    "expected_reply": "Hi Priya, yes, our Android app is available on the Google Play Store. I've sent the download link to your team. It supports conversation viewing, quick replies, and push notifications."
+  },
+  {
+    "email": "Is there a way to automatically tag emails based on keywords in the subject?",
+    "expected_reply": "Hi Maya, yes, you can set up keyword-based auto-tagging. I've created rules for common keywords in your industry. Emails with matching subjects will be automatically tagged."
+  },
+  {
+    "email": "The Gmail integration stopped working. Emails aren't syncing to our shared inbox 'Sales'.",
+    "expected_reply": "Hi Andrew, I'm sorry for the disruption. I can see a sync error for 'Sales'. I've reset the connection and emails should start appearing within 15 minutes."
+  },
+  {
+    "email": "Can we schedule recurring reports to be emailed to leadership weekly?",
+    "expected_reply": "Hi Zoe, I've set up a weekly recurring report that will be emailed to your leadership team every Monday. It includes response times, resolution rates, and conversation volume."
+  },
+  {
+    "email": "We're migrating from Intercom. Any best practices for setting up a shared inbox?",
+    "expected_reply": "Hi Grace, great choice! I've attached our SaaS migration playbook. Key tips: 1) Set up tags first, 2) Use automation rules for routing, 3) Train on collision detection. I've also scheduled a migration consult for July 17."
+  },
+  {
+    "email": "Our automation rule to assign emails from synergyworks.com to Avery isn't working.",
+    "expected_reply": "Hi Grace, I checked your automation rule and found the condition was set to 'contains' instead of 'from domain'. I've corrected it and tested with a sample email — it now assigns to Avery correctly."
+  },
+  {
+    "email": "Hiver sidebar is blank when I open Gmail. I've tried Chrome and Firefox.",
+    "expected_reply": "Hi Aria, this is a known issue with the latest Gmail update. I've applied a patch to your account. Please refresh Gmail (Ctrl+Shift+R) and the sidebar should load."
+  },
+  {
+    "email": "Hi, our billing contact left the company. How do I update the billing email address?",
+    "expected_reply": "Hi Casey, I've updated your billing email to christopher.johnson@techflow.io. All future invoices and payment notifications will be sent there."
+  },
+  {
+    "email": "The Slack integration keeps disconnecting every few days. We have to reconnect manually.",
+    "expected_reply": "Hi Nathan, I've identified an OAuth token refresh issue causing the Slack disconnections. I've implemented a permanent fix and increased the token validity period."
+  },
+  {
+    "email": "Is there a way to see who deleted a conversation and when?",
+    "expected_reply": "Hi Sarah, yes, our audit log tracks all deletions. I've pulled the log for your account and sent it via email. It shows the user, timestamp, and conversation ID for every deletion in the past 90 days."
+  },
+  {
+    "email": "Can we submit feature requests and track their status?",
+    "expected_reply": "Hi Henry, yes! I've created a feature request portal for your account. You can submit requests, track their status, and see what other customers have requested. Our PM team reviews these weekly."
+  },
+  {
+    "email": "We're reorganizing and want to pause our account for 10 days without losing data.",
+    "expected_reply": "Hi Henry, I've paused your billing for 10 days. All data, rules, and templates will remain frozen. When you're ready, just reply to this email or click reactivate in your admin panel."
+  },
+  {
+    "email": "Can we get a discount for paying annually upfront? We're currently on monthly Business.",
+    "expected_reply": "Hi Zara, I've applied an annual discount of 50% to your plan. Your new annual rate is $2990, saving you $598 per year."
+  },
+  {
+    "email": "We need to comply with GDPR. Can you help us export and delete a specific user's data?",
+    "expected_reply": "Hi James, I've prepared a GDPR data export for the specified user and sent it securely. For deletion, I need written confirmation from your DPO."
+  },
+  {
+    "email": "Can I downgrade from Starter to Basic without losing my data?",
+    "expected_reply": "Hi Olivia, yes, you can downgrade to Basic without losing any data. I've processed the downgrade effective immediately. Your next invoice will reflect the Basic plan rate of $29."
+  },
+  {
+    "email": "Do you have a mobile app for Android? We have field agents.",
+    "expected_reply": "Hi Mia, yes, our Android app is available on the Google Play Store. I've sent the download link to your team. It supports conversation viewing, quick replies, and push notifications."
+  },
+  {
+    "email": "I accidentally deleted a shared inbox. Can it be recovered?",
+    "expected_reply": "Hi Grace, don't worry — I've restored your shared inbox from our backup. All conversations, rules, and tags are intact."
+  },
+  {
+    "email": "Emails from datapulse.net are going to spam in Hiver but not in Gmail.",
+    "expected_reply": "Hi Noah, I've adjusted your spam filter settings for datapulse.net and whitelisted the sender. Future emails from this domain should land in your inbox."
+  },
+  {
+    "email": "Is there an AI feature that suggests replies to common questions?",
+    "expected_reply": "Hi Sarah, yes! Our AI Reply Suggestions feature is in beta. I've enabled it on your account. It suggests replies based on your team's past responses and can be trained on your specific tone."
+  },
+  {
+    "email": "What's the difference between a shared inbox and email delegation in Gmail?",
+    "expected_reply": "Hi Jordan, great question! A shared inbox gives your entire team visibility into all conversations, with assignment, collision detection, and analytics. Email delegation only lets one person access another's inbox without those features."
+  },
+  {
+    "email": "Our company card expired. How do I update payment before the next billing on the 3th?",
+    "expected_reply": "Hi Wei, I've updated your payment method. Your next billing cycle on the 3th will charge the new card ending in ****4278. I've sent a $0 verification charge to confirm."
+  },
+  {
+    "email": "Our security team needs to know: Are you SOC 2 compliant? Where is data stored?",
+    "expected_reply": "Hi Taylor, yes, we are SOC 2 Type II certified. Data is stored in APAC (AWS). I've attached our security whitepaper, pen-test summary, and DPA."
+  },
+  {
+    "email": "Is there a way to suggest improvements to the product directly to your PM team?",
+    "expected_reply": "Hi Zoe, yes! I've added you to our PM feedback program. You'll receive monthly surveys and early access to beta features. Your feedback goes directly to our product team."
+  },
+  {
+    "email": "Is there a way to see which agents are online and what they're working on in real-time?",
+    "expected_reply": "Hi Nathan, I've enabled the real-time activity dashboard for your account. You can see which agents are online, what conversations they're viewing, and their current status."
+  },
+  {
+    "email": "We have 11 new hires next week. Do you have training materials?",
+    "expected_reply": "Hi Nathan, congratulations on the growth! I've scheduled a live training session for July 18 and sent you a recording of our last session. I've also created a dedicated onboarding inbox for your new hires to practice in."
+  },
+  {
+    "email": "Do you support multiple languages in the UI and email templates?",
+    "expected_reply": "Hi Olivia, we support 15 languages in the UI and email templates. I've enabled multilingual support on your account."
+  },
+  {
+    "email": "The mobile push notifications are delayed by 10-15 minutes. Can this be fixed?",
+    "expected_reply": "Hi Joseph, I've identified a delay in our push notification queue. I've optimized the pipeline and your notifications should now arrive within 30 seconds."
+  },
+  {
+    "email": "I cancelled my subscription but was still charged this month. Please reverse this charge.",
+    "expected_reply": "Hi David, I apologize for that. I've identified the billing error and issued a full refund of $79. It will appear in 5-7 business days."
+  },
+  {
+    "email": "Hi, I was charged for 20 seats but we downgraded to 15 last month. Refund the difference?",
+    "expected_reply": "Hi Oliver, I see the issue — our system didn't process your seat downgrade. I've corrected it to 15 seats and issued a credit of $320 for the overcharge."
+  },
+  {
+    "email": "How do I add a new team member starting next week?",
+    "expected_reply": "Hi Dakota, welcome aboard! I've sent an invite to the new member's email with instructions. Once they accept, you can assign them to your shared inbox from Settings > Team."
+  },
+  {
+    "email": "Do you offer professional services for implementation and migration?",
+    "expected_reply": "Hi Noah, yes, we offer professional services including implementation, migration, and training. I've sent you our services catalog and pricing. I've also scheduled a scoping call for July 15."
+  },
+  {
+    "email": "Can we get a reference call with a similar company in E-commerce?",
+    "expected_reply": "Hi Joseph, I'd be happy to arrange a reference call. I've reached out to Quinn at SynergyWorks and they agreed to speak with you. I'll introduce you both via email."
+  },
+  {
+    "email": "Can we create email templates with dynamic variables like {customer_name}?",
+    "expected_reply": "Hi Fatima, yes, dynamic variables are supported in templates. You can use {customer_name}, {ticket_id}, {agent_name}, and more. I've created a sample template with variables for your account."
+  },
+  {
+    "email": "I was charged sales tax this month but wasn't before. Why the change?",
+    "expected_reply": "Hi Jordan, sales tax was added because your billing address was updated to a taxable region. I've attached the tax details and our tax exemption form."
+  },
+  {
+    "email": "Can we create email templates with dynamic variables like {customer_name}?",
+    "expected_reply": "Hi Sam, yes, dynamic variables are supported in templates. You can use {customer_name}, {ticket_id}, {agent_name}, and more. I've created a sample template with variables for your account."
+  },
+  {
+    "email": "Can we submit feature requests and track their status?",
+    "expected_reply": "Hi Aisha, yes! I've created a feature request portal for your account. You can submit requests, track their status, and see what other customers have requested. Our PM team reviews these weekly."
+  },
+  {
+    "email": "Can we increase the file attachment limit from 25MB?",
+    "expected_reply": "Hi Wei, our current attachment limit is 25MB per email, which aligns with Gmail's limits. For larger files, I recommend using our integration with Google Drive or Dropbox."
+  },
+  {
+    "email": "Can we get a reference call with a similar company in SaaS?",
+    "expected_reply": "Hi Oliver, I'd be happy to arrange a reference call. I've reached out to Taylor at TechFlow and they agreed to speak with you. I'll introduce you both via email."
+  },
+  {
+    "email": "We acquired another company. Can we merge their Hiver account into ours?",
+    "expected_reply": "Hi Lily, I've initiated the account merge process. I'll need admin approval from both accounts. The merge typically takes 2-3 business days and all data will be preserved."
+  },
+  {
+    "email": "My accountant needs all invoices from last year. Can you send them in one go?",
+    "expected_reply": "Hi Liam, I've compiled all your invoices from last year and sent them as a ZIP file. Each is in PDF format with full payment details."
+  },
+  {
+    "email": "What's your average uptime and do you have a status page?",
+    "expected_reply": "Hi Maya, our average uptime is 99.99% over the past 12 months. Our status page is at status.hiverhq.com and you can subscribe to incident alerts. I've also attached our SLA guarantees."
+  },
+  {
+    "email": "Can we get a security questionnaire filled out for our vendor review?",
+    "expected_reply": "Hi Lucas, I've completed your security questionnaire and attached it here. It covers our infrastructure, data handling, access controls, and incident response."
+  },
+  {
+    "email": "Do you support multiple languages in the UI and email templates?",
+    "expected_reply": "Hi James, we support 15 languages in the UI and email templates. I've enabled multilingual support on your account."
+  },
+  {
+    "email": "Our webhook payloads are missing the 'customer_email' field. Was this removed?",
+    "expected_reply": "Hi Michael, the 'customer_email' field was not removed — it was renamed to 'sender_email' in API v2. I've updated your webhook configuration to use the new field name."
+  },
+  {
+    "email": "How do I set up different signatures for different shared inboxes?",
+    "expected_reply": "Hi Isabella, you can set inbox-specific signatures in Settings > Inboxes > [Inbox Name] > Signature. I've created a quick video walkthrough and sent it to your email."
+  },
+  {
+    "email": "Can we integrate Hiver with our internal knowledge base?",
+    "expected_reply": "Hi Grace, we support knowledge base integrations via API and webhook. I've sent you our integration guide and a sample webhook configuration."
+  },
+  {
+    "email": "Can we have more than one admin? We have 150 team members.",
+    "expected_reply": "Hi Emma, yes! I've upgraded your plan to include 2 admin seats. You can assign admin roles in Settings > Team > Permissions."
+  },
+  {
+    "email": "The 'Send Later' feature sends emails immediately instead of at the scheduled time.",
+    "expected_reply": "Hi Hannah, I've identified a timezone bug in the 'Send Later' feature. I've fixed it for your account and scheduled emails will now send at the correct local time."
+  },
+  {
+    "email": "Can we get a reference call with a similar company in Healthcare?",
+    "expected_reply": "Hi Noah, I'd be happy to arrange a reference call. I've reached out to Andrew at Acme Corp and they agreed to speak with you. I'll introduce you both via email."
+  },
+  {
+    "email": "Can we create custom roles beyond Admin and Agent? Like 'Supervisor' or 'Viewer'?",
+    "expected_reply": "Hi Sarah, custom roles are available on our Enterprise plan. I've created 'Supervisor' and 'Viewer' roles for your account with the permissions you specified."
+  },
+  {
+    "email": "Where is my refund? I requested it 7 days ago and still haven't received it. Order HI-LL4ZKLOO.",
+    "expected_reply": "Hi Hannah, I completely understand your frustration. I've checked order HI-LL4ZKLOO and confirmed the refund was processed. It typically takes 5-7 business days, but in some cases up to 10. If it doesn't appear soon, please reply and I'll escalate immediately."
+  },
+  {
+    "email": "Can I downgrade from Starter to Basic without losing my data?",
+    "expected_reply": "Hi Benjamin, yes, you can downgrade to Basic without losing any data. I've processed the downgrade effective immediately. Your next invoice will reflect the Basic plan rate of $29."
+  },
+  {
+    "email": "What's the difference between a shared inbox and email delegation in Gmail?",
+    "expected_reply": "Hi Daniel, great question! A shared inbox gives your entire team visibility into all conversations, with assignment, collision detection, and analytics. Email delegation only lets one person access another's inbox without those features."
+  },
+  {
+    "email": "How often do you release new features? Is there a public roadmap?",
+    "expected_reply": "Hi Wei, we release new features every 2 weeks. I've sent you a link to our public roadmap where you can see what's in development, what's in beta, and what's planned."
+  },
+  {
+    "email": "Can we create custom fields for conversations like 'Priority' and 'Region'?",
+    "expected_reply": "Hi Thomas, yes, custom fields are available on our Pro plan. I've created 'Priority' and 'Region' fields for your account. You can add them to any conversation and use them in automation rules and reports."
+  },
+  {
+    "email": "We're evaluating Hiver for our SaaS company. Do you have case studies?",
+    "expected_reply": "Hi Hannah, I've attached case studies from SilverStream and SolarFlare in SaaS. Both had similar team sizes and use cases. I'd also love to connect you with Oliver for a reference call."
+  },
+  {
+    "email": "Emails from cloudnine.co are going to spam in Hiver but not in Gmail.",
+    "expected_reply": "Hi Thomas, I've adjusted your spam filter settings for cloudnine.co and whitelisted the sender. Future emails from this domain should land in your inbox."
+  },
+  {
+    "email": "How do I add a new team member starting next week?",
+    "expected_reply": "Hi Taylor, welcome aboard! I've sent an invite to the new member's email with instructions. Once they accept, you can assign them to your shared inbox from Settings > Team."
+  },
+  {
+    "email": "Can we create a customer portal where they can view their ticket status?",
+    "expected_reply": "Hi James, customer portals are available on our Enterprise plan. I've created a portal for your account where customers can view ticket status, add comments, and upload files."
+  },
+  {
+    "email": "Can we set up IP restrictions so agents can only log in from our office?",
+    "expected_reply": "Hi Andrew, I've enabled IP restrictions on your account. You can add allowed IP ranges in Settings > Security > IP Whitelist."
+  },
+  {
+    "email": "Can we try Hiver with a subset of our team before rolling out company-wide?",
+    "expected_reply": "Hi Priya, absolutely! I recommend starting with a pilot of 5-10 users. I've set up a pilot workspace for you with a dedicated onboarding specialist. We'll measure adoption and satisfaction after 2 weeks before expanding."
+  },
+  {
+    "email": "My credit card was declined but I updated it. Will you retry the charge or do I need to pay manually?",
+    "expected_reply": "Hi Nathan, I've triggered a retry of the charge on your updated card. It should process within 24 hours. No manual payment is needed."
+  },
+  {
+    "email": "Can we build custom automation triggers based on email sentiment?",
+    "expected_reply": "Hi Sarah, sentiment-based automation is in beta. I've enabled it on your account. You can now create triggers based on positive, negative, or neutral sentiment scores."
+  },
+  {
+    "email": "Do you offer discounts for non-profits or educational institutions?",
+    "expected_reply": "Hi Christopher, yes, we offer 50% off for registered non-profits and educational institutions. I've sent you the discount application form. Once approved, the discount applies to all future invoices retroactively."
+  },
+  {
+    "email": "Do you have on-premise deployment options for highly regulated industries?",
+    "expected_reply": "Hi Priya, we offer on-premise deployment for Enterprise customers in regulated industries. I've sent you our on-premise deployment guide and scheduled a technical scoping call with our infrastructure team."
+  }
+]
