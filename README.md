@@ -1,3 +1,5 @@
+<img width="1607" height="796" alt="image" src="https://github.com/user-attachments/assets/f63ec19b-0413-417a-a3fd-2548f3676cae" />
+
 # 📧 Hiver AI Challenge – GenAI Email Reply Assistant
 
 ## Overview
